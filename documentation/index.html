@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us">
+	<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>
+			Perfex - Powerful Open Source CRM - The ony CRM you will ever need
+		</title>
+		<meta content="" name="description">
+		<meta content="Marjan Stojanov" name="author">
+		<meta content="Marjan Stojanov" name="copyright">
+		<meta content="Documenter v2.0 http://rxa.li/documenter" name="generator">
+		<meta content="2016-02-27T00:00:00+01:00" name="date">
+		<link href="assets/css/documenter_style.css" media="all" rel="stylesheet">
+		<script src="assets/js/jquery.js">
+		</script>
+		<script src="assets/js/jquery.scrollTo.js">
+		</script>
+		<script src="assets/js/jquery.easing.js">
+		</script>
+		<script>
+		document.createElement('section');var duration='598',easing='swing';
+		</script>
+		<script src="assets/js/script.js">
+		</script>
+		<style>
+		      html{background-color:#EEEEEE;color:#383838;}
+		      ::-moz-selection{background:#333636;color:#00DFFC;}
+		      ::selection{background:#333636;color:#00DFFC;}
+		      #documenter_sidebar #documenter_logo{background-image:url();}
+		      a{color:#B72974;}
+		      .btn {
+		          border-radius:3px;
+		      }
+		      .btn-primary {
+		            background-image: -moz-linear-gradient(top, #008C9E, #006673);
+		            background-image: -ms-linear-gradient(top, #008C9E, #006673);
+		            background-image: -webkit-gradient(linear, 0 0, 0 008C9E%, from(#343838), to(#006673));
+		            background-image: -webkit-linear-gradient(top, #008C9E, #006673);
+		            background-image: -o-linear-gradient(top, #008C9E, #006673);
+		            background-image: linear-gradient(top, #008C9E, #006673);
+		            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008C9E', endColorstr='#006673', GradientType=0);
+		            border-color: #006673 #006673 #bfbfbf;
+		            color:#FFFFFF;
+		      }
+		      .btn-primary:hover,
+		      .btn-primary:active,
+		      .btn-primary.active,
+		      .btn-primary.disabled,
+		      .btn-primary[disabled] {
+		        border-color: #008C9E #008C9E #bfbfbf;
+		        background-color: #006673;
+		      }
+		      pre {
+		      box-sizing: border-box; overflow: auto; font-family: Menlo, Monaco, Consolas, 'Courier New', monospace; font-size: 13px; padding: 9.5px; margin-top: 0px; margin-bottom: 10px; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; border-color: rgb(204, 204, 204); border-radius: 4px; background-color: rgb(245, 245, 245);
+		      }
+		      hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #FFFFFF;}
+		      #documenter_sidebar, #documenter_sidebar ul a{background-color:#343838;color:#FFFFFF;}
+		      #documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #494F4F;-moz-text-shadow:1px 1px 0px #494F4F;text-shadow:1px 1px 0px #494F4F;}
+		      #documenter_sidebar ul{border-top:1px solid #212424;}
+		      #documenter_sidebar ul a{border-top:1px solid #494F4F;border-bottom:1px solid #212424;color:#FFFFFF;}
+		      #documenter_sidebar ul a:hover{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		      #documenter_sidebar ul a.current{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		      #documenter_copyright{display:block !important;visibility:visible !important;}
+		</style>
+	</head>
+	<body class="documenter-project-perfex-powerful-open-source-crm">
+		<div id="documenter_sidebar">
+			<a href="#documenter_cover" id="documenter_logo"></a>
+			<ul id="documenter_nav">
+				<li>
+					<a class="current" href="#documenter_cover">Start</a>
+				</li>
+				<li>
+					<a href="#welcome" title="Welcome">Welcome</a>
+				</li>
+				<li>
+					<a href="#system_requirements" title="System Requirements">System
+					Requirements</a>
+				</li>
+				<li>
+					<a href="#installation" title="Installation">Installation</a>
+				</li>
+				<li>
+					<a href="#local_server_installation" title=
+					"Local Server Installation">Local Server Installation</a>
+				</li>
+				<li>
+					<a href="#setup" title="Setup">Setup</a>
+				</li>
+				<li>
+					<a href="#faq" title="FAQ">FAQ</a>
+				</li>
+				<li>
+					<a href="#update" title="Update">Update</a>
+				</li>
+			</ul>
+			<div id="documenter_copyright">
+				Copyright Marjan Stojanov 2016<br>
+				made with the <a href="http://rxa.li/documenter">Documenter v2.0</a>
+			</div>
+		</div>
+		<div id="documenter_content">
+			<section id="documenter_cover">
+				<h1>
+					Perfex - Powerful Open Source CRM
+				</h1>
+				<h2>
+					The ony CRM you will ever need
+				</h2>
+				<div id="documenter_buttons"></div>
+				<hr>
+				<ul>
+					<li>created: 02/27/2016
+					</li>
+					<li>latest update: 02/27/2016
+					</li>
+					<li>by: Marjan Stojanov
+					</li>
+					<li>
+						<a href=""></a>
+					</li>
+					<li>email: <a href=
+					"mailto:&#105;&#110;&#102;&#111;&#64;&#112;&#101;&#114;&#102;&#101;&#120;&#99;&#114;&#109;&#46;&#99;&#111;&#109;">
+						&#105;&#110;&#102;&#111;&#64;&#112;&#101;&#114;&#102;&#101;&#120;&#99;&#114;&#109;&#46;&#99;&#111;&#109;</a>
+					</li>
+				</ul>
+				<p></p>
+			</section>
+			<section id="welcome">
+				<div class="page-header">
+					<h3>
+						Welcome
+					</h3>
+					<hr class="notop">
+				</div>
+				<h4 id="welcome_strongperfex_documentation_strong">
+					<strong>Perfex Documentation</strong>
+				</h4>
+				<p>
+					<strong>Website:&nbsp;<a href=
+					"http://www.perfexcrm.com/">www.perfexcrm.com</a></strong>
+				</p>
+				<h4 id="welcome_stronga_href">
+					<strong><a href="http://www.perfexcrm.com/documentations/">Full
+					Documentation</a></strong>
+				</h4>
+				<h4 id="welcome_stronga_href">
+					<strong><a href="http://support.perfexcrm.com/">Support Desk</a></strong>
+				</h4>
+			</section>
+			<section id="system_requirements">
+				<div class="page-header">
+					<h3>
+						System Requirements
+					</h3>
+					<hr class="notop">
+				</div>
+				<ul>
+					<li style="box-sizing: border-box;">PHP 5.4+
+					</li>
+					<li style="box-sizing: border-box;">MYSQL 5.1+
+					</li>
+					<li style="box-sizing: border-box;">mod_rewrite Apache
+					</li>
+					<li style="box-sizing: border-box;">Mcrypt Extension
+					</li>
+					<li style="box-sizing: border-box;">MBString Extension
+					</li>
+					<li style="box-sizing: border-box;">GD Extension
+					</li>
+					<li style="box-sizing: border-box;">MYSQLi Extension
+					</li>
+					<li style="box-sizing: border-box;">PDO Extension
+					</li>
+					<li style="box-sizing: border-box;">OpenSSL Extension
+					</li>
+					<li style="box-sizing: border-box;">Zip Extension
+					</li>
+					<li style="box-sizing: border-box;">CURL Extension (Recomended)
+					</li>
+				</ul>
+				<p>
+					In most hosting accounts these extensions are enabled by default. But you
+					should check with your hosting provider.
+				</p>
+				<p>
+					&nbsp;
+				</p>
+			</section>
+			<section id="installation">
+				<div class="page-header">
+					<h3>
+						Installation
+					</h3>
+					<hr class="notop">
+				</div>
+				<p>
+					<strong>Perfex come with a simple automatic installation.</strong>
+				</p>
+				<h5>
+					<strong>Configure database connection</strong>
+				</h5>
+				<p>
+					You need to have previously setup database from the cPanel.
+				</p>
+				<p>
+					Here is a good tutorial&nbsp;<a href=
+					"https://www.namecheap.com/support/knowledgebase/article.aspx/9363/2180/how-to-create-and-maintain-mysql-databases-in-cpanel"
+					target="_blank">how to setup MySQL database in cPanel</a>&nbsp;if you are
+					not familiar with this.
+				</p>
+				<ol>
+					<li>Login to cPanel by accessing www.yourdomain.com/cpanel and navigate go
+					MySQL Databases.
+					</li>
+					<li>Create database first.
+					</li>
+					<li>Create user and setup your password.
+					</li>
+					<li>Add the user to database by selecting the database and the username.
+					</li>
+				</ol>
+				<p class="note">
+					Make sure you have checked All privileged when adding the user to
+					database.
+				</p>
+				<hr>
+				<h5>
+					<strong>Install</strong>
+				</h5>
+				<p>
+					Upload the files to your hosting folder and navigate to your base url
+					http://yourdomain.com/install
+				</p>
+				<p class="note">
+					You will need to pass the requirements in order to install Perfex CRM.
+				</p>
+				<p>
+					<img alt="" src="assets/images/image_4.png"><br>
+					Click Setup Database and populate the fields according to your database
+					setup.
+				</p>
+				<p>
+					If any erros found while connecting you will be notified otherwise you
+					should see the credentials screen
+				</p>
+				<p>
+					<img alt="" src="assets/images/image_2.png">
+				</p>
+				<p>
+					<strong>Enter admin email and password</strong>
+				</p>
+				<p>
+					<img alt="" src="assets/images/image_3.png">
+				</p>
+				<p>
+					If you need help installing dont hesitate to open&nbsp;<a href=
+					"http://support.perfexcrm.com/">support ticket</a>
+				</p>
+				<p>
+					After successful installation you need to setup first things to have all
+					functionalities included right. Perfex come with some predefined data but
+					you need still to setup some things up :)
+				</p>
+			</section>
+			<section id="local_server_installation">
+				<div class="page-header">
+					<h3>
+						Local Server Installation
+					</h3>
+					<hr class="notop">
+				</div>
+				<h5>
+					<strong>WAMP</strong>
+				</h5>
+				<p>
+					Even if you are trying to install Perfex on WAMP you must meet all the
+					requirements.<br style="box-sizing: border-box;">
+					WAMP by default comes with mod_rewrite disabled.
+				</p>
+				<p>
+					To Enable .htaccess in WAMP Server use the following steps<br style=
+					"box-sizing: border-box;">
+					<strong>STEP &nbsp;1: &nbsp;click on Wampserver and select
+					apache-&gt;httpd.conf</strong>
+				</p>
+				<p>
+					<img alt="How-to-Enable-.htaccess-in-WAMP-Server-step1-272x300" class=
+					"alignnone size-full wp-image-947" height="300" src=
+					"assets/images/image_5.png" style=
+					"box-sizing: border-box; border: 0px; height: auto; max-width: 100%; vertical-align: middle; margin-bottom: 10px;"
+					width="272">
+				</p>
+				<p>
+					<strong>STEP &nbsp;2: Find and replace the following
+					text</strong><br style="box-sizing: border-box;">
+					Find &nbsp; &nbsp; &nbsp;<span style=
+					"box-sizing: border-box; font-weight: 700;">#LoadModule rewrite_module
+					modules/mod_rewrite.so</span><br style="box-sizing: border-box;">
+					Replace&nbsp;&nbsp;<span style=
+					"box-sizing: border-box; font-weight: 700;">&nbsp;LoadModule
+					rewrite_module modules/mod_rewrite.so</span>
+				</p>
+				<p>
+					<img alt="How-to-Enable-.htaccess-in-WAMP-Server-step2-300x202" class=
+					"alignnone size-full wp-image-951" height="658" sizes=
+					"(max-width: 974px) 100vw, 974px" src="assets/images/image_6.png" srcset=
+					"http://www.perfexcrm.com/wp-content/uploads/2016/02/How-to-Enable-.htaccess-in-WAMP-Server-step2-300x202-300x203.png 300w, http://www.perfexcrm.com/wp-content/uploads/2016/02/How-to-Enable-.htaccess-in-WAMP-Server-step2-300x202-768x519.png 768w, assets/images/image_6.png 974w"
+					style=
+					"box-sizing: border-box; border: 0px; height: auto; max-width: 100%; vertical-align: middle; margin-bottom: 10px;"
+					width="974">
+				</p>
+				<p>
+					<strong><span style="letter-spacing: 0.3px;">STEP &nbsp;3: Restart Wamp
+					Server</span></strong>
+				</p>
+				<p>
+					<img alt="How-to-Enable-.htaccess-in-WAMP-Server-step3" class=
+					"alignnone size-full wp-image-949" height="443" sizes=
+					"(max-width: 307px) 100vw, 307px" src="assets/images/image_7.png" srcset=
+					"http://www.perfexcrm.com/wp-content/uploads/2016/02/How-to-Enable-.htaccess-in-WAMP-Server-step3-208x300.png 208w, assets/images/image_7.png 307w"
+					style=
+					"box-sizing: border-box; border: 0px; height: auto; max-width: 100%; vertical-align: middle; margin-bottom: 10px;"
+					width="307">
+				</p>
+				<hr>
+				<h5>
+					<strong>XAMP</strong>
+				</h5>
+				<p>
+					<span>Perfex CRM is not using any online resources except the business
+					news which is located on the top header menu on the right side, but you
+					can install it on XAMPP server without any problems. Everything will work
+					good except if no internet connection you wont be able to send
+					emails.</span>
+				</p>
+				<p>
+					Few changes we need to do in XAMPP default installation.
+				</p>
+				<p>
+					1. Change the .htaccess&nbsp;
+				</p>
+				<pre style="box-sizing: border-box; font-weight: 700;">
+				RewriteRule ^(.*)$ index.php?/$1 [L,QSA]</pre>&nbsp;to&nbsp;
+				<pre style="box-sizing: border-box; font-weight: 700;">
+				RewriteRule ^(.*)$ /yourfolder/index.php?/$1 [L,QSA]</pre><br style=
+				"box-sizing: border-box;">
+				2. Enable the fileinfo and IMAP extension manually (enable them in php.ini
+				and restart apache).
+				<p></p>
+				<p>
+					Try to install.
+				</p>
+			</section>
+			<section id="setup">
+				<div class="page-header">
+					<h3>
+						Setup
+					</h3>
+					<hr class="notop">
+				</div>
+				<h5>
+					<strong>Cron Job</strong>
+				</h5>
+				<p>
+					You will need to setup the cron job controller for Perfex
+				</p>
+				<p>
+					Cron job will be used for sending survey emails, auto update invoice
+					statuse ex. if the invoice is overdue etc.
+				</p>
+				<h5>
+					<strong>How to setup Cron Job?</strong>
+				</h5>
+				<p>
+					Login to your cPanel and navigate to&nbsp;<span>Cron jobs</span>
+				</p>
+				<p style="font-size: 14px; line-height: 20px;">
+					Add the following settings :
+				</p>
+				<p style="font-size: 14px; line-height: 20px;">
+					<img alt="" src="assets/images/image_1.png">
+				</p>
+				<p></p>
+				<pre>wget -q -O- http://perfexcrm.com/demo/cron/index</pre>
+				<p></p>
+				<p>
+					<span>Change the url according to your base url where Perfex CRM is
+					located. You can check your cron url in <b>Setup->Settings->Cron Job</b></span>
+				</p>
+				<p>
+					Example if its on root domain you need to type only
+					http://yourdomain.com/cron/index&nbsp;<br style="box-sizing: border-box;">
+					If its on subfolder /crm you will need to type
+					http://yourdomain.com/crm/cron/index
+				</p>
+				<p>
+					<span>Do not forget the&nbsp;<span style=
+					"box-sizing: border-box;">wget</span>&nbsp;command in front.</span>
+				</p>
+				<p class="note" style=
+				"font-size: 14px; line-height: 20px; box-sizing: border-box; margin: 0px 0px 10px; border: 1px solid rgb(251, 167, 102); padding: 12px; border-radius: 4px; background: rgb(255, 248, 242);">
+				Cron is required to be setup for Perfex CRM
+				</p>
+				<hr>
+				<h5>
+					<strong><a href=
+					"http://www.perfexcrm.com/knowledgebase/setting-up-smtp/">General
+					Email</a></strong>
+				</h5>
+				<p>
+					Navigate to Settings Menu -&gt; Settings -&gt; Email and setup your SMTP
+					email, this will be your base email. You need to&nbsp;<a href=
+					"http://support.hostgator.com/articles/specialized-help/email/how-do-i-create-email-accounts-in-cpanel"
+					style=
+					"box-sizing: border-box; color: rgb(40, 184, 218); text-decoration: none; background-color: transparent;"
+					target="_blank">setup previously email account from your
+					cPanel</a>&nbsp;account.
+				</p>
+				<hr>
+				<h5>
+					<strong>Default Timezone</strong>
+				</h5>
+				<p>
+					Setup your timezone, not reccomended changing this later. This option is
+					located in Settings-&gt; General
+				</p>
+				<hr>
+				<h5>
+					<strong>Setup roles</strong>
+				</h5>
+				<p>
+					Go to Settings Menu -&gt; Settings -&gt; Roles and add the required staff
+					roles
+				</p>
+				<p>
+					By default there will be 1 role employee. You only need to add permissions
+					for this role.
+				</p>
+				<h5>
+					<strong><a href=
+					"http://www.perfexcrm.com/documentation/installation/departments/" style=
+					"line-height: 1.1; box-sizing: border-box; color: rgb(40, 184, 218); text-decoration: none; background-color: transparent;">
+					Departments</a></strong>
+				</h5>
+				<p>
+					Setup your departments by going to Settings Menu -&gt; Departments
+				</p>
+				<hr>
+				<h5>
+					<strong>Email Templates</strong>
+				</h5>
+				<p>
+					Check all the email templates, setup signature also in Settings Menu -&gt;
+					Settings -&gt; Email this signature will be using on all email
+					representing your company
+				</p>
+				<hr>
+				<h5>
+					<strong>Date Format</strong>
+				</h5>
+				<p>
+					Setup your desired date format, will be using all over the application.
+					This option is located in Settings-&gt; Localization
+				</p>
+				<hr>
+				<h5>
+					<strong><a href="http://www.perfexcrm.com/doc/sales/" style=
+					"box-sizing: border-box; color: rgb(40, 184, 218); text-decoration: none; background-color: transparent;">
+					Sales</a></strong>
+				</h5>
+				<p>
+					This option is located in Settings-&gt;Sales
+				</p>
+				<p>
+					Set invoice prefix, your company info on invoice, decimal separator etc..
+				</p>
+				<p class="text-success" style=
+				"box-sizing: border-box; margin: 0px 0px 10px; color: rgb(60, 118, 61); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">
+				<span>That&#39;s it. You are good to go</span>
+				</p>
+			</section>
+			<section id="faq">
+				<div class="page-header">
+					<h3>
+						FAQ
+					</h3>
+					<hr class="notop">
+				</div>
+				<h5>
+					<strong>Installing on subdomain</strong>
+				</h5>
+				<p>
+					<span>If you are facing 404 problems on subdomain make sure that you have
+					mod_rewrite enabled and replace the main .htaccess file with one of the
+					following where the</span> <strong>CRM</strong> <span>in htaccess 2,3 is
+					your subdomain name. In most cases the first htaccess should work.</span>
+				</p>
+				<p>
+					<strong><span>Try .htaccess 1</span></strong>
+				</p>
+				<pre>
+RewriteEngine on
+RewriteBase /
+RewriteCond $1 !^(index\.php|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+AddDefaultCharset utf-8
+</pre>
+				<p>
+					<strong><span>Try .htaccess 2</span></strong>
+				</p>
+				<pre>
+RewriteEngine on
+RewriteBase /
+RewriteCond $1 !^(index\.php|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ crm/index.php/$1 [L,QSA]
+AddDefaultCharset utf-8
+</pre>
+				<p>
+					<strong><span>Try .htaccess 3</span></strong>
+				</p>
+				<pre>
+RewriteEngine on
+RewriteCond $1 !^(index\.php|resources|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ crm/index.php/$1 [L,QSA]
+AddDefaultCharset utf-8</pre>
+				<h5>
+				<strong>Why i'm getting file too long when copy/extract the files in my desktop?</strong>
+				</h5>
+				<p>
+					This is not an issue, feel free to check <b>Do this for all files</b> and skip copying the files. You wont encounter any problems while using Perfex. This is from the node_modules.
+				</p>
+				<h5>
+					<strong>Translating Perfex CRM</strong>
+				</h5>
+				<p>
+					You can translate Perfex CRM very easy. Follow the
+					documentation&nbsp;<a href=
+					"http://www.perfexcrm.com/documentation/changing-language/" style=
+					"box-sizing: border-box; outline: 0px !important; text-decoration: none !important; color: rgb(51, 122, 183); background-color: transparent;">instructions</a>&nbsp;and
+					translate in your own language.
+				</p>
+				<p>
+					If you plan to to edit the default english file you will need to copy the
+					default and rename the folder to ex. my_english and the file
+					english_lang.php to&nbsp;<span class="file_name" style=
+					"box-sizing: border-box;">my_english_lang.php</span>.<br style=
+					"box-sizing: border-box;">
+					Becuase when updateing to newer version the english file is always
+					replaced with the one from the update.
+				</p>
+				<h5>
+					<strong>How to check which version i&#39;m using?</strong>
+				</h5>
+				<p>
+					To check your version navigate to
+					application/helpers/perfex_constants_helper.php and find
+					define(&#39;PERFEX_VERSION&#39;);
+				</p>
+			</section>
+			<section id="update">
+				<div class="page-header">
+					<h3>
+						Update
+					</h3>
+					<hr class="notop">
+				</div>
+				<p>
+					<b>Update Notes:</b>
+				</p>
+				<ul>
+					<li>
+						<a href=
+						"http://www.perfexcrm.com/documentation/upgrading-from-v1-0-6-to-v-1-0-7/"
+						target="_blank">Upgrading from V1.0.6 to V1.0.7</a>
+					</li>
+				</ul>
+				<p>
+					If you have purchased Perfex CRM and new version is available you will
+					need to upgrade your current version. To get all the new features and
+					fixes if any. The upgrade is pretty simple just follow the steps below and
+					you&#39;ll have the newest version of Perfex.
+				</p>
+				<p>
+					Check the changelog on <a href=
+					"http://www.perfexcrm.com/doc/change-log/">http://www.perfexcrm.com/doc/change-log/</a>
+					if you are using your own theme for the customers area. To make sure that
+					there is no changes in the original theme. If any changes there will be
+					mentioned in the first list item from the changelog.
+				</p>
+				<hr>
+				<p class="note" style=
+				"box-sizing: border-box; margin: 0px 0px 10px; border: 1px solid rgb(251, 167, 102); padding: 12px; border-radius: 4px; color: rgb(68, 74, 82); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; background: rgb(255, 248, 242);">
+				Always backup your files and database before making an upgrade
+				</p>
+				<ol>
+					<li>Download the newest version from CodeCanyon.
+					</li>
+					<li>Delete the&nbsp;<span style=
+					"box-sizing: border-box; color: rgb(202, 49, 78); font-weight: bold;">application/controllers/install</span>&nbsp;folder.
+					(You dont need this folder, used only for install)
+					</li>
+					<li>Delete&nbsp;<span style=
+					"box-sizing: border-box; color: rgb(202, 49, 78); font-weight: bold;">application/config/database.php</span>
+					</li>
+					<li>Delete&nbsp;<span style=
+					"box-sizing: border-box; color: rgb(202, 49, 78); font-weight: bold;">application/config/config.php</span>
+					</li>
+					<li>Delete&nbsp;<span style=
+					"box-sizing: border-box; color: rgb(202, 49, 78); font-weight: bold;">application/helpers/my_functions_helper.php</span>
+					</li>
+					<li>Delete&nbsp;<span style=
+					"box-sizing: border-box; color: rgb(202, 49, 78); font-weight: bold;">assets/css/custom.css</span>
+					</li>
+					<li>
+						<span style="box-sizing: border-box; font-weight: 700;">Create backup to
+						any files you have made changes</span>
+					</li>
+				</ol>
+				<p>
+					<span style=
+					"box-sizing: border-box; font-weight: 700; color: rgb(68, 74, 82); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">
+					Overwrite the following folders:</span>
+				</p>
+				<ul>
+					<li>/application
+					</li>
+					<li>/bower_components
+					</li>
+					<li>/assets
+					</li>
+				</ul>
+				<p>
+					After overwriting the files navigate to&nbsp;<span style=
+					"box-sizing: border-box; color: rgb(202, 49, 78); font-weight: bold;">application/config/migration.php</span>&nbsp;and
+					find:
+				</p>
+				<p></p>
+				<pre>$config[&#39;migration_enabled&#39;] = false; </pre>
+				<p></p>
+				<p>
+					<span style=
+					"color: rgb(68, 74, 82); font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">
+					set it to</span>
+				</p>
+				<p></p>
+				<pre>$config[&#39;migration_enabled&#39;] = true; </pre>
+				<p></p>
+				<p>
+					After that go to&nbsp;<span style=
+					"box-sizing: border-box; font-weight: 700;">yourdomain.com/update</span>&nbsp;(or
+					where Perfex is installed) and if upgrade is successfuly a message will be
+					shown that your database is up to date.
+				</p>
+				<p>
+					<strong>If you are using your own language make sure to copy all the
+					strings below the last # Version comment from the main english.php
+					file.</strong>
+				</p>
+				<p>
+					<strong>Set $config[&#39;migration_enabled&#39;]&nbsp; to false;</strong>
+				</p>
+				<p>
+					Login the the admin area and check if everything is okey. <strong>Clear
+					the cache</strong> if any changes are made in JS files and CSS.
+				</p>
+				<p>
+					If you experience any trouble while updating, open <a href=
+					"http://ttp://support.perfexcrm.com/">support ticket</a> &nbsp;and i will
+					be happy to assist you.
+				</p>
+			</section>
+		</div>
+	</body>
+</html>
