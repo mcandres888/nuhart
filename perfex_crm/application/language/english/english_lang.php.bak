@@ -2330,29 +2330,4 @@ $lang['als_leads_all_articles_submenu'] = 'All Articles';
 $lang['als_leads_kb_groups_submenu'] = 'Groups';
 $lang['home_leads_contacted_today'] = 'Leads Contacted Today';
 
-
-
-
-
-# new home for nuhart
-$lang['home_pending_1'] = 'Pending (JTG)';
-$lang['home_leads_followup_1'] = 'Leads for follow up (JTG)';
-$lang['home_leads_forgot_followup_1'] = 'Leads forgot to follow up (JTG)';
-$lang['home_booked_calls_1'] = 'Booked Calls (JTG)';
-$lang['home_attended_calls_1'] = 'Attended Calls (JTG)';
-
-$lang['home_pending_2'] = 'Pending (RLE)';
-$lang['home_leads_followup_2'] = 'Leads for follow up (RLE)';
-$lang['home_leads_forgot_followup_2'] = 'Leads forgot to follow up (RLE)';
-$lang['home_booked_calls_2'] = 'Booked Calls (RLE)';
-$lang['home_attended_calls_2'] = 'Attended Calls (RLE)';
-
-
-$lang['home_total_patients'] = 'Total Patients';
-$lang['home_session_total_sales'] = 'Session Total Sales';
-$lang['home_leads_missed_consultation'] = 'Leads Missed Consultation';
-$lang['home_forgot_update_session_1'] = 'Forgot To Update Sessions (JTG)';
-$lang['home_forgot_update_session_2'] = 'Forgot To Update Sessions (RLE)';
-
-
 ?>
