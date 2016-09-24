@@ -22,6 +22,28 @@ class Leads_model extends CRM_Model
 
         return $this->db->get('tblleads')->result_array();
     }
+    /**
+     * this function gets the last assigned telemarketer
+     * and alternates the staff to be assigned
+     */
+    
+
+    public function getStaffToAssigned() {
+        $query ="select * from tblleads order by id DESC limit 1";
+        $res = $this->db->query($query);
+        if ($res->num_rows() > 0) {
+           $last_assigned =  $res->result_array()[0]['assigned'];
+           if ($last_assigned == 2) {
+             return 3;
+           } else {
+             return 2;
+           }
+        } else {
+           return 0;
+        }
+
+
+    }
 
     /**
      * Add new lead to database

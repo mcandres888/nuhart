@@ -9,71 +9,90 @@
 						<div class="row home-summary">
 
 							<div class="col-md-5ths col-xs-6 text-center border-right">
+							    <span class="bold text-danger mtop15 inline-block"><i class="fa fa-clock-o"></i>  <?php echo _l('home_pending_1'); ?></span>
 								<a href="<?php echo admin_url('invoices/list_invoices?status=4'); ?>">
-									<h2 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  </h2>
-									<span class="bold text-danger mtop15 inline-block"><i class="fa fa-clock-o"></i>  <?php echo _l('home_pending_1'); ?></span>
+							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
+							        <span class="bold text-danger small">JTG</span>
+                                 </h3>
+								</a>
+
+								<a href="<?php echo admin_url('invoices/list_invoices?status=4'); ?>">
+							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
+							        <span class="bold text-danger small">RLE</span>
+                                 </h3>
 								</a>
 							</div>
+
+
 							<div class="col-md-5ths col-xs-6 text-center border-right">
+						        <span class="bold text-muted inline-block mtop15"><i class="fa fa-envelope"></i> <?php echo _l('home_leads_followup_1'); ?></span>
 								<a href="<?php echo admin_url('invoices/list_invoices?custom_view=not_sent'); ?>">
-									<h2 class="bold no-margin"><?php echo total_rows('tblinvoices',array('sent'=>0,'status !='=>2)); ?></h2>
-									<span class="bold text-muted inline-block mtop15"><i class="fa fa-envelope"></i> <?php echo _l('home_leads_followup_1'); ?></span>
+							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
+							        <span class="bold text-danger small">JTG</span>
+                                    </h3>
 								</a>
+								<a href="<?php echo admin_url('invoices/list_invoices?custom_view=not_sent'); ?>">
+							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
+							        <span class="bold text-danger small">RLE</span>
+                                    </h3>
+								</a>
+
+
+
 							</div>
+
+
+
+
 							<div class="col-md-5ths col-xs-6 text-center border-right">
+						        <span class="bold text-info mtop15 inline-block"><i class="fa fa-balance-scale"></i> <?php echo _l('home_leads_forgot_followup_1'); ?></span>
 								<a href="<?php echo admin_url('invoices/list_invoices?status=3'); ?>">
-									<h2 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>3)); ?></h2>
-									<span class="bold text-info mtop15 inline-block"><i class="fa fa-balance-scale"></i> <?php echo _l('home_leads_forgot_followup_1'); ?></span>
+							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
+							        <span class="bold text-danger small">JTG</span>
+                                    </h3>
 								</a>
+								<a href="<?php echo admin_url('invoices/list_invoices?status=3'); ?>">
+							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
+							        <span class="bold text-danger small">RLE</span>
+                                    </h3>
+								</a>
+
+
+
+
 							</div>
 							<div class="col-md-5ths col-xs-6 text-center border-right">
+							    <span class="bold text-success mtop15 inline-block"><i class="fa fa-check"></i> <?php echo _l('home_booked_calls_1'); ?></span>
 								<a href="<?php echo admin_url('invoices/list_invoices?status=2'); ?>">
-									<h2 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>2)); ?></h2>
-									<span class="bold text-success mtop15 inline-block"><i class="fa fa-check"></i> <?php echo _l('home_booked_calls_1'); ?></span>
+							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
+							        <span class="bold text-danger small">JTG</span>
+                                    </h3>
 								</a>
+							<a href="<?php echo admin_url('invoices/list_invoices?status=2'); ?>">
+							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
+							        <span class="bold text-danger small">RLE</span>
+                                    </h3>
+								</a>
+
+
+
+
 							</div>
 							<div class="col-md-5ths col-xs-6 text-center">
-								<a href="<?php echo admin_url('payments?custom_view=today'); ?>">
-									<h2 class="bold no-margin"><?php echo total_rows('tblinvoicepaymentrecords',array('DATE(date)'=>date('Y-m-d'))); ?></h2>
 									<span class="bold text-success mtop15 inline-block"><i class="fa fa-calendar-check-o"></i> <?php echo _l('home_attended_calls_1'); ?></span>
-								</a>
-							</div>
-
-
-
-							<div class="clearfix">  </div>
-							<hr class="home-summary-separator"/>
-
-							<div class="col-md-5ths col-xs-6 text-center border-right">
-								<a href="<?php echo admin_url('invoices/list_invoices?status=4'); ?>">
-									<h2 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  </h2>
-									<span class="bold text-danger mtop15 inline-block"><i class="fa fa-clock-o"></i>  <?php echo _l('home_pending_2'); ?></span>
-								</a>
-							</div>
-							<div class="col-md-5ths col-xs-6 text-center border-right">
-								<a href="<?php echo admin_url('invoices/list_invoices?custom_view=not_sent'); ?>">
-									<h2 class="bold no-margin"><?php echo total_rows('tblinvoices',array('sent'=>0,'status !='=>2)); ?></h2>
-									<span class="bold text-muted inline-block mtop15"><i class="fa fa-envelope"></i> <?php echo _l('home_leads_followup_2'); ?></span>
-								</a>
-							</div>
-							<div class="col-md-5ths col-xs-6 text-center border-right">
-								<a href="<?php echo admin_url('invoices/list_invoices?status=3'); ?>">
-									<h2 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>3)); ?></h2>
-									<span class="bold text-info mtop15 inline-block"><i class="fa fa-balance-scale"></i> <?php echo _l('home_leads_forgot_followup_2'); ?></span>
-								</a>
-							</div>
-							<div class="col-md-5ths col-xs-6 text-center border-right">
-								<a href="<?php echo admin_url('invoices/list_invoices?status=2'); ?>">
-									<h2 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>2)); ?></h2>
-									<span class="bold text-success mtop15 inline-block"><i class="fa fa-check"></i> <?php echo _l('home_booked_calls_2'); ?></span>
-								</a>
-							</div>
-							<div class="col-md-5ths col-xs-6 text-center">
 								<a href="<?php echo admin_url('payments?custom_view=today'); ?>">
-									<h2 class="bold no-margin"><?php echo total_rows('tblinvoicepaymentrecords',array('DATE(date)'=>date('Y-m-d'))); ?></h2>
-									<span class="bold text-success mtop15 inline-block"><i class="fa fa-calendar-check-o"></i> <?php echo _l('home_attended_calls_2'); ?></span>
+							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
+							        <span class="bold text-danger small">JTG</span>
+                                    </h3>
 								</a>
+								<a href="<?php echo admin_url('payments?custom_view=today'); ?>">
+							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
+							        <span class="bold text-danger small">RLE</span>
+                                    </h3>
+								</a>
+	
 							</div>
+
 
 
 
@@ -107,10 +126,18 @@
 								</a>
 							</div>
 							<div class="col-md-5ths col-xs-6 text-center">
-								<a href="<?php echo admin_url('tasks/list_tasks?custom_view=unfinished'); ?>">
-									<h2 class="bold no-margin"><?php echo total_rows('tblstafftasks',array('finished'=>0)); ?></h2>
 									<span class="bold text-warning mtop15 inline-block"><i class="fa fa-times"></i> <?php echo _l('home_forgot_update_session_2'); ?></span>
+								<a href="<?php echo admin_url('tasks/list_tasks?custom_view=unfinished'); ?>">
+							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
+							        <span class="bold text-danger small">JTG</span>
+                                    </h3>
 								</a>
+								<a href="<?php echo admin_url('tasks/list_tasks?custom_view=unfinished'); ?>">
+							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
+							        <span class="bold text-danger small">RLE</span>
+                                    </h3>
+								</a>
+	
 							</div>
 						</div>
 					</div>

@@ -411,7 +411,7 @@ $lang['ticket_priority_add_edit_name'] = 'Priority Name';
 
 # Reports
 $lang['kb_reports'] = 'Knowledge base articles reports';
-$lang['sales_reports'] = 'Sales Reports';
+$lang['sales_reports'] = 'Sessions Reports';
 $lang['reports_choose_kb_group'] = 'Choose Group';
 $lang['reports_sales_select_report_type'] = 'Select Report Type';
 $lang['report_kb_yes'] = 'Yes';
@@ -420,7 +420,7 @@ $lang['report_kb_no_votes'] = 'No votes yet';
 $lang['report_this_week_leads_conversions'] = 'This Week Leads Conversions';
 $lang['report_leads_sources_conversions'] = 'Sources';
 $lang['report_leads_monthly_conversions'] = 'Monthly';
-$lang['sales_report_heading'] = 'Sales Report';
+$lang['sales_report_heading'] = 'Sessions Report';
 $lang['report_sales_type_income'] = 'Total Income';
 
 $lang['report_sales_type_customer'] = 'Patient Report';
@@ -646,7 +646,7 @@ $lang['als_leads'] = 'Leads';
 $lang['als_contracts'] = 'Contracts';
 
 $lang['als_all_tickets'] = 'All Tickets';
-$lang['als_sales'] = 'Sales';
+$lang['als_sales'] = 'Sessions';
 
 $lang['als_staff'] = 'Staff';
 $lang['als_tasks'] = 'Tasks';
@@ -655,7 +655,7 @@ $lang['als_kb'] = 'Knowledge Base';
 $lang['als_surveys'] = 'Surveys';
 $lang['als_media'] = 'Media';
 $lang['als_reports'] = 'Reports';
-$lang['als_reports_sales_submenu'] = 'Sales';
+$lang['als_reports_sales_submenu'] = 'Sessions';
 $lang['als_reports_leads_submenu'] = 'Leads';
 $lang['als_kb_articles_submenu'] = 'KB Articles';
 $lang['als_utilities'] = 'Utilities';
@@ -2290,10 +2290,10 @@ $lang['home_unfinished_invoices_not_sent'] = 'Invoice Not Sent';
 $lang['home_unfinished_expired_estimates'] = 'Expired Quotations';
 $lang['home_unfinished_invoice_overdue'] = 'Invoice Overdue';
 $lang['home_unfinished_leads_contacted_today'] = 'Leads Contacted Today';
-$lang['acs_sales'] = 'Sales';
+$lang['acs_sales'] = 'Sessions';
 $lang['acs_language_translator'] = 'Translator';
 $lang['invoice_add_edit_new_item'] = 'New Item';
-$lang['report_sales_type_items'] = 'Sales by Item';
+$lang['report_sales_type_items'] = 'Sessions by Item';
 $lang['reports_sales_dt_items_name'] = 'Item Name';
 $lang['reports_sales_dt_items_quantity'] = 'Quantity';
 $lang['reports_sales_dt_items_amount'] = 'Amount';
@@ -2335,24 +2335,18 @@ $lang['home_leads_contacted_today'] = 'Leads Contacted Today';
 
 
 # new home for nuhart
-$lang['home_pending_1'] = 'Pending (JTG)';
-$lang['home_leads_followup_1'] = 'Leads for follow up (JTG)';
-$lang['home_leads_forgot_followup_1'] = 'Leads forgot to follow up (JTG)';
-$lang['home_booked_calls_1'] = 'Booked Calls (JTG)';
-$lang['home_attended_calls_1'] = 'Attended Calls (JTG)';
-
-$lang['home_pending_2'] = 'Pending (RLE)';
-$lang['home_leads_followup_2'] = 'Leads for follow up (RLE)';
-$lang['home_leads_forgot_followup_2'] = 'Leads forgot to follow up (RLE)';
-$lang['home_booked_calls_2'] = 'Booked Calls (RLE)';
-$lang['home_attended_calls_2'] = 'Attended Calls (RLE)';
+$lang['home_pending_1'] = 'Pending';
+$lang['home_leads_followup_1'] = 'Leads for follow up';
+$lang['home_leads_forgot_followup_1'] = 'Leads forgot to follow up';
+$lang['home_booked_calls_1'] = 'Booked Calls';
+$lang['home_attended_calls_1'] = 'Attended Calls';
 
 
 $lang['home_total_patients'] = 'Total Patients';
-$lang['home_session_total_sales'] = 'Session Total Sales';
+$lang['home_session_total_sales'] = 'Session Total Sessions';
 $lang['home_leads_missed_consultation'] = 'Leads Missed Consultation';
-$lang['home_forgot_update_session_1'] = 'Forgot To Update Sessions (JTG)';
-$lang['home_forgot_update_session_2'] = 'Forgot To Update Sessions (RLE)';
+$lang['home_forgot_update_session_1'] = 'Total Something';
+$lang['home_forgot_update_session_2'] = 'Forgot To Update Sessions';
 
 
 ?>
