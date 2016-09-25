@@ -31,19 +31,30 @@ class Leads_model extends CRM_Model
     public function getStaffToAssigned() {
         $query ="select * from tblleads order by id DESC limit 1";
         $res = $this->db->query($query);
+        $last_assigned = 0;
         if ($res->num_rows() > 0) {
            $last_assigned =  $res->result_array()[0]['assigned'];
-           echo "last assigned" . $last_assigned;
-           if ($last_assigned == 2) {
-             return 3;
-           } else {
-             return 2;
-           }
-        } else {
-           return 0;
+        }
+        if ($last_assigned == 0 ) {
+           return 1;
         }
 
-
+        # get all list of staff except the admin
+        $query ="select staffid from tblstaff where admin=0";
+        $res = $this->db->query($query);
+        if ($res->num_rows() ==  0) {
+            return 1;
+        }
+        $result_array = [];
+        foreach ($res->result_array() as $val) {
+            $result_array[] = $val['staffid'];
+        }
+        $key = array_search($last_assigned, $result_array);
+        if ($key == count($result_array) - 1) {
+            return $result_array[0];
+        } else {
+            return $result_array[$key + 1];
+        }
     }
 
 
