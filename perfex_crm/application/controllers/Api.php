@@ -25,7 +25,8 @@ class Api extends CI_Controller
          $lead = new leads_model();
          $retval = $lead->get(1);
 
-         $post_data = $this->get->input->post();
+         $post_data = $this->input->post();
+         print_r($post_data);
          $leadjson = array();
          $leadjson['name']  = $post_data['name'];
          $leadjson['contacted_today']  = true;
@@ -39,7 +40,7 @@ class Api extends CI_Controller
 
          $leadjson['assigned']  = $lead->getStaffToAssigned();
 
-         $leadid = $lead->add($leadjson);
+         $leadid = $lead->addFromGenerator($leadjson);
 
          $note = array();
          $note['leadid'] = $leadid;

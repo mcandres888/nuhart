@@ -33,6 +33,7 @@ class Leads_model extends CRM_Model
         $res = $this->db->query($query);
         if ($res->num_rows() > 0) {
            $last_assigned =  $res->result_array()[0]['assigned'];
+           echo "last assigned" . $last_assigned;
            if ($last_assigned == 2) {
              return 3;
            } else {
@@ -44,6 +45,76 @@ class Leads_model extends CRM_Model
 
 
     }
+
+
+    /**
+     * Add new lead to database
+     * @param mixed $data lead data
+     * @return mixed false || leadid
+     */
+    public function addFromGenerator($data)
+    {
+
+        if (isset($data['contacted_today'])) {
+            $data['lastcontact'] = date('Y-m-d H:i:s');
+            unset($data['contacted_today']);
+        } else {
+            $data['lastcontact'] = to_sql_date($data['custom_contact_date']);
+        }
+
+        if(isset($data['custom_fields'])){
+            $custom_fields = $data['custom_fields'];
+            unset($data['custom_fields']);
+        }
+
+
+         if(isset($data['is_public'])){
+            $data['is_public'] = 1;
+            } else {
+                $data['is_public'] = 0;
+            }
+
+
+        unset($data['custom_contact_date']);
+        $data['dateadded'] = date('Y-m-d H:i:s');
+        $data['addedfrom'] = get_staff_user_id();
+        $data = do_action('before_lead_added', $data);
+
+         if(isset($data['custom_fields'])){
+            $custom_fields = $data['custom_fields'];
+            unset($data['custom_fields']);
+        }
+
+        $this->db->insert('tblleads', $data);
+        $insert_id = $this->db->insert_id();
+
+
+        if ($insert_id) {
+
+            logActivity('New Lead Added [LeadID: ' . $insert_id . ']');
+            $this->log_lead_activity($insert_id, 'Created Lead from website contact form.');
+            if(isset($custom_fields)){
+                handle_custom_fields_post($insert_id,$custom_fields);
+            }
+
+            if ((!empty($data['assigned']) && $data['assigned'] != 0) && $data['assigned'] != get_staff_user_id()) {
+                add_notification(array(
+                    'description' =>  'Website lead generator assigned lead ' . $data['name'] . ' to you.',
+                    'touserid' => $data['assigned'],
+                    'link'=>'leads/lead/'.$insert_id
+                ));
+
+                $this->log_lead_activity($insert_id, 'Website lead generator assigned to <a href="' . admin_url('profile/' . $data['assigned']) . '">' . get_staff_full_name($data['assigned']) . '</a>');
+            }
+
+            return $insert_id;
+        }
+        return false;
+    }
+
+
+
+
 
     /**
      * Add new lead to database
