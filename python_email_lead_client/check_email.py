@@ -18,8 +18,8 @@ def uploadLeadToApi ( json_data ):
     print r.text
 
 
-#emails = g.inbox().mail(sender="nuhartphweb@gmail.com", prefetch=True, unread=True)
-emails = g.inbox().mail(sender="nuhartphweb@gmail.com", prefetch=True)
+emails = g.inbox().mail(sender="nuhartphweb@gmail.com", prefetch=True, unread=True)
+#emails = g.inbox().mail(sender="nuhartphweb@gmail.com", prefetch=True)
 for email in emails:
     data =  email.body
     print data
@@ -39,5 +39,5 @@ for email in emails:
 
     print json_data
     uploadLeadToApi(json_data)
-
+    email.read()
 
