@@ -10,34 +10,27 @@
 
 							<div class="col-md-5ths col-xs-6 text-center border-right">
 							    <span class="bold text-danger mtop15 inline-block"><i class="fa fa-clock-o"></i>  <?php echo _l('home_pending_1'); ?></span>
-								<a href="<?php echo admin_url('invoices/list_invoices?status=4'); ?>">
-							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
-							        <span class="bold text-danger small">JTG</span>
-                                 </h3>
-								</a>
 
-								<a href="<?php echo admin_url('invoices/list_invoices?status=4'); ?>">
-							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
-							        <span class="bold text-danger small">RLE</span>
+                              <?php foreach ($dash['pending'] as $d ) { ?>
+							    	<a href="<?php echo admin_url('invoices/list_invoices?status=4'); ?>">
+							        <h3 class="bold no-margin"><?php echo $d['value']?>  
+							        <span class="bold text-danger small"><?php echo $d['name']?></span>
                                  </h3>
 								</a>
+                               <?php  } ?>
 							</div>
 
 
 							<div class="col-md-5ths col-xs-6 text-center border-right">
 						        <span class="bold text-muted inline-block mtop15"><i class="fa fa-envelope"></i> <?php echo _l('home_leads_followup_1'); ?></span>
-								<a href="<?php echo admin_url('invoices/list_invoices?custom_view=not_sent'); ?>">
-							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
-							        <span class="bold text-danger small">JTG</span>
-                                    </h3>
-								</a>
-								<a href="<?php echo admin_url('invoices/list_invoices?custom_view=not_sent'); ?>">
-							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
-							        <span class="bold text-danger small">RLE</span>
-                                    </h3>
-								</a>
 
-
+                              <?php foreach ($dash['leads_followup'] as $d ) { ?>
+							    	<a href="<?php echo admin_url('invoices/list_invoices?status=4'); ?>">
+							        <h3 class="bold no-margin"><?php echo $d['value']?>  
+							        <span class="bold text-danger small"><?php echo $d['name']?></span>
+                                 </h3>
+								</a>
+                               <?php  } ?>
 
 							</div>
 
@@ -46,51 +39,40 @@
 
 							<div class="col-md-5ths col-xs-6 text-center border-right">
 						        <span class="bold text-info mtop15 inline-block"><i class="fa fa-balance-scale"></i> <?php echo _l('home_leads_forgot_followup_1'); ?></span>
-								<a href="<?php echo admin_url('invoices/list_invoices?status=3'); ?>">
-							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
-							        <span class="bold text-danger small">JTG</span>
-                                    </h3>
+
+                              <?php foreach ($dash['leads_forgot_followup'] as $d ) { ?>
+							    	<a href="<?php echo admin_url('invoices/list_invoices?status=4'); ?>">
+							        <h3 class="bold no-margin"><?php echo $d['value']?>  
+							        <span class="bold text-danger small"><?php echo $d['name']?></span>
+                                 </h3>
 								</a>
-								<a href="<?php echo admin_url('invoices/list_invoices?status=3'); ?>">
-							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
-							        <span class="bold text-danger small">RLE</span>
-                                    </h3>
-								</a>
-
-
-
+                               <?php  } ?>
 
 							</div>
 							<div class="col-md-5ths col-xs-6 text-center border-right">
 							    <span class="bold text-success mtop15 inline-block"><i class="fa fa-check"></i> <?php echo _l('home_booked_calls_1'); ?></span>
-								<a href="<?php echo admin_url('invoices/list_invoices?status=2'); ?>">
-							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
-							        <span class="bold text-danger small">JTG</span>
-                                    </h3>
+
+                              <?php foreach ($dash['booked_calls'] as $d ) { ?>
+							    	<a href="<?php echo admin_url('invoices/list_invoices?status=4'); ?>">
+							        <h3 class="bold no-margin"><?php echo $d['value']?>  
+							        <span class="bold text-danger small"><?php echo $d['name']?></span>
+                                 </h3>
 								</a>
-							<a href="<?php echo admin_url('invoices/list_invoices?status=2'); ?>">
-							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
-							        <span class="bold text-danger small">RLE</span>
-                                    </h3>
-								</a>
-
-
-
+                               <?php  } ?>
 
 							</div>
 							<div class="col-md-5ths col-xs-6 text-center">
 									<span class="bold text-success mtop15 inline-block"><i class="fa fa-calendar-check-o"></i> <?php echo _l('home_attended_calls_1'); ?></span>
-								<a href="<?php echo admin_url('payments?custom_view=today'); ?>">
-							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
-							        <span class="bold text-danger small">JTG</span>
-                                    </h3>
+
+
+                              <?php foreach ($dash['attended_calls'] as $d ) { ?>
+							    	<a href="<?php echo admin_url('invoices/list_invoices?status=4'); ?>">
+							        <h3 class="bold no-margin"><?php echo $d['value']?>  
+							        <span class="bold text-danger small"><?php echo $d['name']?></span>
+                                 </h3>
 								</a>
-								<a href="<?php echo admin_url('payments?custom_view=today'); ?>">
-							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
-							        <span class="bold text-danger small">RLE</span>
-                                    </h3>
-								</a>
-	
+                               <?php  } ?>
+
 							</div>
 
 
@@ -127,16 +109,15 @@
 							</div>
 							<div class="col-md-5ths col-xs-6 text-center">
 									<span class="bold text-warning mtop15 inline-block"><i class="fa fa-times"></i> <?php echo _l('home_forgot_update_session_2'); ?></span>
-								<a href="<?php echo admin_url('tasks/list_tasks?custom_view=unfinished'); ?>">
-							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
-							        <span class="bold text-danger small">JTG</span>
-                                    </h3>
+
+                              <?php foreach ($dash['forgot_update_sessions'] as $d ) { ?>
+							    	<a href="<?php echo admin_url('invoices/list_invoices?status=4'); ?>">
+							        <h3 class="bold no-margin"><?php echo $d['value']?>  
+							        <span class="bold text-danger small"><?php echo $d['name']?></span>
+                                 </h3>
 								</a>
-								<a href="<?php echo admin_url('tasks/list_tasks?custom_view=unfinished'); ?>">
-							        <h3 class="bold no-margin"><?php echo total_rows('tblinvoices',array('status'=>4)); ?>  
-							        <span class="bold text-danger small">RLE</span>
-                                    </h3>
-								</a>
+                               <?php  } ?>
+
 	
 							</div>
 						</div>

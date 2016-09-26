@@ -22,6 +22,37 @@ class Leads_model extends CRM_Model
 
         return $this->db->get('tblleads')->result_array();
     }
+
+
+   /***
+   *  Get all lead status
+   *  
+   */
+   public function getLeadStatus () {
+       $query ="select * from tblleadsstatus";
+       $res = $this->db->query($query);
+       $result_array = []; 
+       foreach ($res->result_array() as $val) {
+           $temp = array();
+           $temp['id'] = $val['id'];
+           $temp['name'] = $val['name'];
+           $result_array[] = $temp;
+       }   
+      return $result_array;
+   }  
+
+   /** 
+   * get leads count based on the assigned staff and status
+   */
+   public function getCountBasedOnStatus ( $status, $staffid) {
+
+        $query ="select * from tblleads where status=$status and assigned=$staffid";
+        $res = $this->db->query($query);
+        return $res->num_rows();
+
+   }
+
+
     /**
      * this function gets the last assigned telemarketer
      * and alternates the staff to be assigned

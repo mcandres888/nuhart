@@ -1,5 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+error_reporting(E_ALL);
+ini_set('display_errors', 'On');
 class Home extends Admin_controller
 {
 
@@ -34,7 +36,40 @@ class Home extends Admin_controller
         $data['google_ids_calendars'] = $this->misc_model->get_google_calendar_ids();
 
         $data['bodyclass'] = 'home';
+        $data['dash'] = $this->getDashboardData();
         $this->load->view('admin/home', $data);
+    }
+
+    public function getDashboardData () {
+
+        /**
+         * 
+        */
+
+
+        $this->load->model('staff_model');
+        $this->load->model('leads_model');
+
+        $dash_data = array();
+        $dash_data['pending'] = array();
+        $dash_data['leads_followup'] = array();
+        $dash_data['leads_forgot_followup'] = array();
+        $dash_data['booked_calls'] = array();
+        $dash_data['attended_calls'] = array();
+        $dash_data['forgot_update_sessions'] = array();
+
+        $staffs = $this->staff_model->getStaff();
+        $statuses = $this->leads_model->getLeadStatus();
+        foreach ($staffs as $staff) {
+            foreach ($statuses as $status) {
+                $val =$this->leads_model->getCountBasedOnStatus($status['id'], $staff['staffid']);
+                $dash_data[$status['name']][] = array("name" => $staff['name'], "value"=> $val);
+            }
+
+        }
+
+
+        return $dash_data;
     }
 
 

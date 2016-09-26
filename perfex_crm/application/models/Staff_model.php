@@ -29,6 +29,23 @@ class Staff_model extends CRM_Model
         return $this->db->get('tblstaff')->result_array();
     }
 
+   /***
+   *  Get all staff except admin
+   *  
+   */
+   public function getStaff () {
+       $query ="select * from tblstaff where admin=0";
+       $res = $this->db->query($query);
+       $result_array = [];
+       foreach ($res->result_array() as $val) {
+           $temp = array();
+           $temp['staffid'] = $val['staffid'];
+           $temp['name'] = $val['firstname'];
+           $result_array[] = $temp;
+       }
+      return $result_array;
+   }
+
 
     /**
      * Add new staff member
