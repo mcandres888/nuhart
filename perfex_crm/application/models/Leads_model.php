@@ -551,6 +551,82 @@ class Leads_model extends CRM_Model
         return false;
     }
 
+
+
+    // Nurses
+    /**
+     * Get nurses
+     * @param  mixed $id status id
+     * @return mixed      object if id passed else array
+     */
+    public function get_nurses($id = '',$default = false)
+    {
+        if($default == true){
+            $this->db->where('isdefault',1);
+            return $this->db->get('tblnurses')->row();
+        }
+        if (is_numeric($id)) {
+            $this->db->where('id', $id);
+            return $this->db->get('tblnurses')->row();
+        }
+        return $this->db->get('tblnurses')->result_array();
+    }
+
+
+    /**
+     * Add new nurse
+     * @param array $data lead status data
+     */
+    public function add_nurse($data)
+    {
+        $this->db->insert('tblnurses', $data);
+        $insert_id = $this->db->insert_id();
+
+        if ($insert_id) {
+            logActivity('New Nurse Added [StatusID: ' . $insert_id . ', Name: '.$data['name'].']');
+            return $insert_id;
+        }
+
+       return false;
+    }
+
+    public function update_nurse($data, $id)
+    {
+        $this->db->where('id', $id);
+        $this->db->update('tblnurses', $data);
+
+        if ($this->db->affected_rows() > 0) {
+            logActivity('Nurse Updated [NurseID: ' . $id . ', Name: '.$data['name'].']');
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
+     * Delete nurse from database
+     * @param  mixed $id status id
+     * @return boolean
+     */
+    public function delete_nurse($id)
+    {
+
+        $current = $this->get_nurses($id);
+        $this->db->where('id', $id);
+        $this->db->delete('tblnurses');
+
+        if ($this->db->affected_rows() > 0) {
+            logActivity('Nurse Deleted [NurseID: ' . $id . ']');
+            return true;
+        }
+
+        return false;
+    }
+
+
+
+
+
     // Statuses
     /**
      * Get lead statuses

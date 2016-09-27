@@ -572,6 +572,7 @@ $lang['lead_status_lowercase'] = 'lead status';
 $lang['leads_status_table_name'] = 'Status Name';
 
 $lang['leads_status_add_edit_name'] = 'Status Name';
+$lang['nurse_status_add_edit_name'] = 'Nurse Name';
 $lang['leads_status_add_edit_order'] = 'Order';
 
 $lang['lead_statuses_not_found'] = 'No leads statuses found';
@@ -680,6 +681,7 @@ $lang['acs_sales_payment_modes_submenu'] = 'Payment Modes';
 $lang['acs_email_templates'] = 'Email Templates';
 $lang['acs_roles'] = 'Roles';
 $lang['acs_settings'] = 'Settings';
+$lang['acs_nurses'] = 'Nurses';
 
 # Tickets
 $lang['new_ticket'] = 'Open New Ticket';

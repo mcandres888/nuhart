@@ -378,6 +378,60 @@ class Leads extends Admin_controller
         $data['title']    = 'Leads statuses';
         $this->load->view('admin/leads/manage_statuses', $data);
     }
+
+
+    /* Add or update leads nurses */
+    public function nurses()
+    {
+        if (!is_admin()) {
+            access_denied('Nurses');
+        }
+        if ($this->input->post()) {
+            if (!$this->input->post('id')) {
+                $id = $this->leads_model->add_nurse($this->input->post());
+                if ($id) {
+                    set_alert('success', _l('added_successfuly', 'Nurse'));
+                }
+            } else {
+                $data = $this->input->post();
+                $id = $data['id'];
+                unset($data['id']);
+                $success = $this->leads_model->update_nurse($data, $id);
+                if ($success) {
+                    set_alert('success', _l('updated_successfuly', 'Nurse'));
+                }
+            }
+        }
+    }
+
+    /* Delete leads status from databae */
+    public function delete_nurse($id)
+    {
+
+        if (!is_admin()) {
+            access_denied('Nurses');
+        }
+
+        if (!$id) {
+            redirect(admin_url('nurses'));
+        }
+
+        $response = $this->leads_model->delete_nurse($id);
+
+        if (is_array($response) && isset($response['referenced'])) {
+            set_alert('warning', _l('is_referenced', 'nurse'));
+        } else if ($response == true) {
+            set_alert('success', _l('deleted', 'Nurse'));
+        } else {
+            set_alert('warning', _l('problem_deleting', 'Nurse'));
+        }
+
+        redirect(admin_url('nurses'));
+    }
+ 
+
+
+
     /* Add or update leads status */
     public function status()
     {

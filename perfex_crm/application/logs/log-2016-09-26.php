@@ -10939,3 +10939,2222 @@ INFO - 2016-09-26 19:03:33 --> Model Class Initialized
 DEBUG - 2016-09-26 19:03:33 --> Perfex_base class already loaded. Second attempt ignored.
 INFO - 2016-09-26 19:03:33 --> Final output sent to browser
 DEBUG - 2016-09-26 19:03:33 --> Total execution time: 0.3831
+INFO - 2016-09-26 19:07:21 --> Config Class Initialized
+INFO - 2016-09-26 19:07:21 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:07:21 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:07:21 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:07:21 --> URI Class Initialized
+INFO - 2016-09-26 19:07:21 --> Router Class Initialized
+INFO - 2016-09-26 19:07:21 --> Output Class Initialized
+INFO - 2016-09-26 19:07:21 --> Security Class Initialized
+DEBUG - 2016-09-26 19:07:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:07:21 --> Input Class Initialized
+INFO - 2016-09-26 19:07:21 --> Language Class Initialized
+INFO - 2016-09-26 19:07:21 --> Loader Class Initialized
+INFO - 2016-09-26 19:07:21 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:07:21 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:07:21 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:07:21 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:07:21 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:07:21 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:07:21 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:07:21 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:07:21 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:07:21 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:07:21 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:07:21 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:07:22 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:07:22 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:07:22 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:22 --> Email Class Initialized
+DEBUG - 2016-09-26 19:07:22 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:22 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:22 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:22 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:22 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:07:22 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:22 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:22 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:22 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:22 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:22 --> User Agent Class Initialized
+INFO - 2016-09-26 19:07:22 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:22 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/head.php
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:22 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/header.php
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:22 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/customizer-sidebar.php
+DEBUG - 2016-09-26 19:07:22 --> Perfex_base class already loaded. Second attempt ignored.
+ERROR - 2016-09-26 19:07:22 --> Could not find the language line "Ticket Pipe Log"
+INFO - 2016-09-26 19:07:22 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/aside.php
+DEBUG - 2016-09-26 19:07:22 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:22 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/scripts.php
+INFO - 2016-09-26 19:07:22 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/leads/manage_leads.php
+INFO - 2016-09-26 19:07:22 --> Final output sent to browser
+DEBUG - 2016-09-26 19:07:22 --> Total execution time: 0.3397
+INFO - 2016-09-26 19:07:22 --> Config Class Initialized
+INFO - 2016-09-26 19:07:22 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:07:22 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:07:22 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:07:22 --> URI Class Initialized
+INFO - 2016-09-26 19:07:22 --> Router Class Initialized
+INFO - 2016-09-26 19:07:22 --> Output Class Initialized
+INFO - 2016-09-26 19:07:22 --> Security Class Initialized
+DEBUG - 2016-09-26 19:07:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:07:22 --> Input Class Initialized
+INFO - 2016-09-26 19:07:22 --> Language Class Initialized
+INFO - 2016-09-26 19:07:22 --> Loader Class Initialized
+INFO - 2016-09-26 19:07:22 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:07:22 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:07:22 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:07:22 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:07:22 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:07:22 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:07:22 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:07:22 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:07:22 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:07:22 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:07:22 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:07:22 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:07:22 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:07:23 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:07:23 --> Config Class Initialized
+INFO - 2016-09-26 19:07:23 --> Hooks Class Initialized
+INFO - 2016-09-26 19:07:23 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:07:23 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:07:23 --> URI Class Initialized
+INFO - 2016-09-26 19:07:23 --> Router Class Initialized
+INFO - 2016-09-26 19:07:23 --> Output Class Initialized
+INFO - 2016-09-26 19:07:23 --> Security Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:07:23 --> Input Class Initialized
+INFO - 2016-09-26 19:07:23 --> Language Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Email Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Loader Class Initialized
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+INFO - 2016-09-26 19:07:23 --> Helper loaded: url_helper
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Controller Class Initialized
+INFO - 2016-09-26 19:07:23 --> Helper loaded: form_helper
+DEBUG - 2016-09-26 19:07:23 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+INFO - 2016-09-26 19:07:23 --> Helper loaded: perfex_html_helper
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:07:23 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:07:23 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:07:23 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:07:23 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> User Agent Class Initialized
+INFO - 2016-09-26 19:07:23 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Final output sent to browser
+DEBUG - 2016-09-26 19:07:23 --> Total execution time: 0.1585
+INFO - 2016-09-26 19:07:23 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:07:23 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Email Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Config Class Initialized
+INFO - 2016-09-26 19:07:23 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:07:23 --> Utf8 Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> URI Class Initialized
+INFO - 2016-09-26 19:07:23 --> User Agent Class Initialized
+INFO - 2016-09-26 19:07:23 --> Router Class Initialized
+INFO - 2016-09-26 19:07:23 --> Output Class Initialized
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Security Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:07:23 --> Input Class Initialized
+INFO - 2016-09-26 19:07:23 --> Language Class Initialized
+INFO - 2016-09-26 19:07:23 --> Loader Class Initialized
+INFO - 2016-09-26 19:07:23 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:07:23 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:07:23 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:07:23 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:07:23 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:07:23 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:07:23 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:07:23 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:07:23 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:07:23 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:07:23 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:07:23 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:07:23 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:07:23 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/leads/kan-ban.php
+INFO - 2016-09-26 19:07:23 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:07:23 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Email Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:07:23 --> User Agent Class Initialized
+INFO - 2016-09-26 19:07:23 --> Model Class Initialized
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:07:23 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:40 --> Config Class Initialized
+INFO - 2016-09-26 19:54:40 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:54:40 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:54:40 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:54:40 --> URI Class Initialized
+INFO - 2016-09-26 19:54:40 --> Router Class Initialized
+INFO - 2016-09-26 19:54:40 --> Output Class Initialized
+INFO - 2016-09-26 19:54:40 --> Security Class Initialized
+DEBUG - 2016-09-26 19:54:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:54:40 --> Input Class Initialized
+INFO - 2016-09-26 19:54:40 --> Language Class Initialized
+INFO - 2016-09-26 19:54:40 --> Loader Class Initialized
+INFO - 2016-09-26 19:54:40 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:54:40 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:54:40 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:54:40 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:54:40 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:54:40 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:54:40 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:54:40 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:54:40 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:54:40 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:54:40 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:54:40 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:54:40 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:54:40 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:54:40 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:40 --> Email Class Initialized
+DEBUG - 2016-09-26 19:54:40 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:40 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:40 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:40 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:40 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:54:40 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:40 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:40 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:40 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:40 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:40 --> User Agent Class Initialized
+INFO - 2016-09-26 19:54:40 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:40 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:40 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/head.php
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:40 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/header.php
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:40 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/customizer-sidebar.php
+DEBUG - 2016-09-26 19:54:40 --> Perfex_base class already loaded. Second attempt ignored.
+ERROR - 2016-09-26 19:54:40 --> Could not find the language line "Ticket Pipe Log"
+INFO - 2016-09-26 19:54:40 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/aside.php
+DEBUG - 2016-09-26 19:54:40 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:40 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/scripts.php
+INFO - 2016-09-26 19:54:40 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/clients/manage.php
+INFO - 2016-09-26 19:54:40 --> Final output sent to browser
+DEBUG - 2016-09-26 19:54:40 --> Total execution time: 0.3306
+INFO - 2016-09-26 19:54:41 --> Config Class Initialized
+INFO - 2016-09-26 19:54:41 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:54:41 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:54:41 --> URI Class Initialized
+INFO - 2016-09-26 19:54:41 --> Router Class Initialized
+INFO - 2016-09-26 19:54:41 --> Output Class Initialized
+INFO - 2016-09-26 19:54:41 --> Security Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:54:41 --> Input Class Initialized
+INFO - 2016-09-26 19:54:41 --> Language Class Initialized
+INFO - 2016-09-26 19:54:41 --> Loader Class Initialized
+INFO - 2016-09-26 19:54:41 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:54:41 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:54:41 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:54:41 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Email Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> User Agent Class Initialized
+INFO - 2016-09-26 19:54:41 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Final output sent to browser
+DEBUG - 2016-09-26 19:54:41 --> Total execution time: 0.1587
+INFO - 2016-09-26 19:54:41 --> Config Class Initialized
+INFO - 2016-09-26 19:54:41 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:54:41 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:54:41 --> URI Class Initialized
+INFO - 2016-09-26 19:54:41 --> Router Class Initialized
+INFO - 2016-09-26 19:54:41 --> Output Class Initialized
+INFO - 2016-09-26 19:54:41 --> Security Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:54:41 --> Input Class Initialized
+INFO - 2016-09-26 19:54:41 --> Language Class Initialized
+INFO - 2016-09-26 19:54:41 --> Loader Class Initialized
+INFO - 2016-09-26 19:54:41 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:54:41 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:54:41 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:54:41 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:54:41 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Email Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:41 --> User Agent Class Initialized
+INFO - 2016-09-26 19:54:41 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:41 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Config Class Initialized
+INFO - 2016-09-26 19:54:43 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:54:43 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:54:43 --> URI Class Initialized
+INFO - 2016-09-26 19:54:43 --> Router Class Initialized
+INFO - 2016-09-26 19:54:43 --> Output Class Initialized
+INFO - 2016-09-26 19:54:43 --> Security Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:54:43 --> Input Class Initialized
+INFO - 2016-09-26 19:54:43 --> Language Class Initialized
+INFO - 2016-09-26 19:54:43 --> Loader Class Initialized
+INFO - 2016-09-26 19:54:43 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:54:43 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:54:43 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:54:43 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Email Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> User Agent Class Initialized
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/head.php
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/header.php
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/customizer-sidebar.php
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+ERROR - 2016-09-26 19:54:43 --> Could not find the language line "Ticket Pipe Log"
+INFO - 2016-09-26 19:54:43 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/aside.php
+DEBUG - 2016-09-26 19:54:43 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/scripts.php
+INFO - 2016-09-26 19:54:43 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/leads/manage_leads.php
+INFO - 2016-09-26 19:54:43 --> Final output sent to browser
+DEBUG - 2016-09-26 19:54:43 --> Total execution time: 0.1967
+INFO - 2016-09-26 19:54:43 --> Config Class Initialized
+INFO - 2016-09-26 19:54:43 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:54:43 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:54:43 --> URI Class Initialized
+INFO - 2016-09-26 19:54:43 --> Router Class Initialized
+INFO - 2016-09-26 19:54:43 --> Output Class Initialized
+INFO - 2016-09-26 19:54:43 --> Security Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:54:43 --> Input Class Initialized
+INFO - 2016-09-26 19:54:43 --> Language Class Initialized
+INFO - 2016-09-26 19:54:43 --> Loader Class Initialized
+INFO - 2016-09-26 19:54:43 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:54:43 --> Config Class Initialized
+INFO - 2016-09-26 19:54:43 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:54:43 --> Hooks Class Initialized
+INFO - 2016-09-26 19:54:43 --> Helper loaded: form_helper
+DEBUG - 2016-09-26 19:54:43 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:54:43 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:54:43 --> URI Class Initialized
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:54:43 --> Router Class Initialized
+INFO - 2016-09-26 19:54:43 --> Output Class Initialized
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:54:43 --> Security Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:54:43 --> Input Class Initialized
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:54:43 --> Language Class Initialized
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:54:43 --> Loader Class Initialized
+INFO - 2016-09-26 19:54:43 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:54:43 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:54:43 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:54:43 --> Database Driver Class Initialized
+INFO - 2016-09-26 19:54:43 --> Language file loaded: language/english/english_lang.php
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Email Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> User Agent Class Initialized
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Final output sent to browser
+DEBUG - 2016-09-26 19:54:43 --> Total execution time: 0.1670
+INFO - 2016-09-26 19:54:43 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:54:43 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Email Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Config Class Initialized
+INFO - 2016-09-26 19:54:43 --> Hooks Class Initialized
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:54:43 --> Controller Class Initialized
+INFO - 2016-09-26 19:54:43 --> Utf8 Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> URI Class Initialized
+INFO - 2016-09-26 19:54:43 --> Router Class Initialized
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Output Class Initialized
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Security Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:54:43 --> Input Class Initialized
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+INFO - 2016-09-26 19:54:43 --> Language Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Loader Class Initialized
+INFO - 2016-09-26 19:54:43 --> User Agent Class Initialized
+INFO - 2016-09-26 19:54:43 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:54:43 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:43 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:43 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:54:43 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:54:43 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:54:44 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/leads/kan-ban.php
+INFO - 2016-09-26 19:54:44 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:54:44 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:44 --> Email Class Initialized
+DEBUG - 2016-09-26 19:54:44 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:44 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:44 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:44 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:44 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:54:44 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:44 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:44 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:44 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:44 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:44 --> User Agent Class Initialized
+INFO - 2016-09-26 19:54:44 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:44 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:56 --> Config Class Initialized
+INFO - 2016-09-26 19:54:56 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:54:56 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:54:56 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:54:56 --> URI Class Initialized
+INFO - 2016-09-26 19:54:56 --> Router Class Initialized
+INFO - 2016-09-26 19:54:56 --> Output Class Initialized
+INFO - 2016-09-26 19:54:56 --> Security Class Initialized
+DEBUG - 2016-09-26 19:54:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:54:56 --> Input Class Initialized
+INFO - 2016-09-26 19:54:56 --> Language Class Initialized
+INFO - 2016-09-26 19:54:56 --> Loader Class Initialized
+INFO - 2016-09-26 19:54:56 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:54:56 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:54:56 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:54:56 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:54:56 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:54:56 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:54:56 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:54:56 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:54:56 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:54:56 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:54:56 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:54:56 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:54:56 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:54:56 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:54:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Email Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> User Agent Class Initialized
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/head.php
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/header.php
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/customizer-sidebar.php
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+ERROR - 2016-09-26 19:54:57 --> Could not find the language line "Ticket Pipe Log"
+INFO - 2016-09-26 19:54:57 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/aside.php
+DEBUG - 2016-09-26 19:54:57 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/scripts.php
+INFO - 2016-09-26 19:54:57 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/clients/manage.php
+INFO - 2016-09-26 19:54:57 --> Final output sent to browser
+DEBUG - 2016-09-26 19:54:57 --> Total execution time: 0.1997
+INFO - 2016-09-26 19:54:57 --> Config Class Initialized
+INFO - 2016-09-26 19:54:57 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:54:57 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:54:57 --> URI Class Initialized
+INFO - 2016-09-26 19:54:57 --> Router Class Initialized
+INFO - 2016-09-26 19:54:57 --> Output Class Initialized
+INFO - 2016-09-26 19:54:57 --> Security Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:54:57 --> Input Class Initialized
+INFO - 2016-09-26 19:54:57 --> Language Class Initialized
+INFO - 2016-09-26 19:54:57 --> Loader Class Initialized
+INFO - 2016-09-26 19:54:57 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:54:57 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:54:57 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:54:57 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Email Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Config Class Initialized
+INFO - 2016-09-26 19:54:57 --> Hooks Class Initialized
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:54:57 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:54:57 --> URI Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Router Class Initialized
+INFO - 2016-09-26 19:54:57 --> User Agent Class Initialized
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Output Class Initialized
+INFO - 2016-09-26 19:54:57 --> Final output sent to browser
+DEBUG - 2016-09-26 19:54:57 --> Total execution time: 0.1467
+INFO - 2016-09-26 19:54:57 --> Security Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:54:57 --> Input Class Initialized
+INFO - 2016-09-26 19:54:57 --> Language Class Initialized
+INFO - 2016-09-26 19:54:57 --> Loader Class Initialized
+INFO - 2016-09-26 19:54:57 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:54:57 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:54:57 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:54:57 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:54:57 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Email Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:54:57 --> User Agent Class Initialized
+INFO - 2016-09-26 19:54:57 --> Model Class Initialized
+DEBUG - 2016-09-26 19:54:57 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> Config Class Initialized
+INFO - 2016-09-26 19:55:11 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:55:11 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:55:11 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:55:11 --> URI Class Initialized
+INFO - 2016-09-26 19:55:11 --> Router Class Initialized
+INFO - 2016-09-26 19:55:11 --> Output Class Initialized
+INFO - 2016-09-26 19:55:11 --> Security Class Initialized
+DEBUG - 2016-09-26 19:55:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:55:11 --> Input Class Initialized
+INFO - 2016-09-26 19:55:11 --> Language Class Initialized
+INFO - 2016-09-26 19:55:11 --> Loader Class Initialized
+INFO - 2016-09-26 19:55:11 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:55:11 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:55:11 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:55:11 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:55:11 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:55:11 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:55:11 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:55:11 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:55:11 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:55:11 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:55:11 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:55:11 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:55:11 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:55:11 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:55:11 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> Email Class Initialized
+DEBUG - 2016-09-26 19:55:11 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:55:11 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> User Agent Class Initialized
+INFO - 2016-09-26 19:55:11 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/head.php
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/header.php
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/customizer-sidebar.php
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+ERROR - 2016-09-26 19:55:11 --> Could not find the language line "Ticket Pipe Log"
+INFO - 2016-09-26 19:55:11 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/aside.php
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:11 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:11 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/scripts.php
+INFO - 2016-09-26 19:55:11 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/utilities/calendar_template.php
+INFO - 2016-09-26 19:55:11 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/home.php
+INFO - 2016-09-26 19:55:11 --> Final output sent to browser
+DEBUG - 2016-09-26 19:55:11 --> Total execution time: 0.4875
+INFO - 2016-09-26 19:55:12 --> Config Class Initialized
+INFO - 2016-09-26 19:55:12 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:55:12 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:55:12 --> Config Class Initialized
+INFO - 2016-09-26 19:55:12 --> URI Class Initialized
+INFO - 2016-09-26 19:55:12 --> Hooks Class Initialized
+INFO - 2016-09-26 19:55:12 --> Router Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:55:12 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:55:12 --> Output Class Initialized
+INFO - 2016-09-26 19:55:12 --> URI Class Initialized
+INFO - 2016-09-26 19:55:12 --> Security Class Initialized
+INFO - 2016-09-26 19:55:12 --> Router Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:55:12 --> Input Class Initialized
+INFO - 2016-09-26 19:55:12 --> Output Class Initialized
+INFO - 2016-09-26 19:55:12 --> Language Class Initialized
+INFO - 2016-09-26 19:55:12 --> Security Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:55:12 --> Input Class Initialized
+INFO - 2016-09-26 19:55:12 --> Language Class Initialized
+INFO - 2016-09-26 19:55:12 --> Loader Class Initialized
+INFO - 2016-09-26 19:55:12 --> Loader Class Initialized
+INFO - 2016-09-26 19:55:12 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:55:12 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:55:12 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:55:12 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:55:12 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Email Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> User Agent Class Initialized
+INFO - 2016-09-26 19:55:12 --> Config Class Initialized
+INFO - 2016-09-26 19:55:12 --> Hooks Class Initialized
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:55:12 --> Utf8 Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> URI Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Router Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Output Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Security Class Initialized
+INFO - 2016-09-26 19:55:12 --> Config Class Initialized
+INFO - 2016-09-26 19:55:12 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:55:12 --> Input Class Initialized
+INFO - 2016-09-26 19:55:12 --> Language Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:55:12 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:55:12 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:55:12 --> URI Class Initialized
+INFO - 2016-09-26 19:55:12 --> Router Class Initialized
+INFO - 2016-09-26 19:55:12 --> Output Class Initialized
+INFO - 2016-09-26 19:55:12 --> Loader Class Initialized
+INFO - 2016-09-26 19:55:12 --> Security Class Initialized
+INFO - 2016-09-26 19:55:12 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:55:12 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:55:12 --> Input Class Initialized
+INFO - 2016-09-26 19:55:12 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:55:12 --> Language Class Initialized
+INFO - 2016-09-26 19:55:12 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:55:12 --> Loader Class Initialized
+INFO - 2016-09-26 19:55:12 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_general_helper
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:55:12 --> Email Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Action_hooks class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_action_hooks_helper
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Controller Class Initialized
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_html_helper
+DEBUG - 2016-09-26 19:55:12 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+INFO - 2016-09-26 19:55:12 --> Helper loaded: my_functions_helper
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:55:12 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:55:12 --> Language file loaded: language/english/english_lang.php
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> User Agent Class Initialized
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Final output sent to browser
+DEBUG - 2016-09-26 19:55:12 --> Total execution time: 0.2355
+INFO - 2016-09-26 19:55:12 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:55:12 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Email Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> User Agent Class Initialized
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Final output sent to browser
+DEBUG - 2016-09-26 19:55:12 --> Total execution time: 0.2015
+INFO - 2016-09-26 19:55:12 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:55:12 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Email Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:12 --> User Agent Class Initialized
+INFO - 2016-09-26 19:55:12 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:12 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:25 --> Config Class Initialized
+INFO - 2016-09-26 19:55:25 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:55:25 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:55:25 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:55:25 --> URI Class Initialized
+INFO - 2016-09-26 19:55:25 --> Router Class Initialized
+INFO - 2016-09-26 19:55:25 --> Output Class Initialized
+INFO - 2016-09-26 19:55:25 --> Security Class Initialized
+DEBUG - 2016-09-26 19:55:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:55:25 --> Input Class Initialized
+INFO - 2016-09-26 19:55:25 --> Language Class Initialized
+INFO - 2016-09-26 19:55:25 --> Loader Class Initialized
+INFO - 2016-09-26 19:55:25 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:55:25 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:55:25 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:55:25 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:55:25 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:55:25 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:55:25 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:55:25 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:55:25 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:55:25 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:55:25 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:55:25 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:55:25 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:55:25 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:55:25 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:25 --> Email Class Initialized
+DEBUG - 2016-09-26 19:55:25 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:25 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:25 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:25 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:25 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:55:25 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:25 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:25 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:25 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:25 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:25 --> User Agent Class Initialized
+INFO - 2016-09-26 19:55:25 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:25 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:25 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/head.php
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:25 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/header.php
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:25 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/customizer-sidebar.php
+DEBUG - 2016-09-26 19:55:25 --> Perfex_base class already loaded. Second attempt ignored.
+ERROR - 2016-09-26 19:55:25 --> Could not find the language line "Ticket Pipe Log"
+INFO - 2016-09-26 19:55:25 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/aside.php
+DEBUG - 2016-09-26 19:55:25 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:25 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/scripts.php
+INFO - 2016-09-26 19:55:25 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/clients/manage.php
+INFO - 2016-09-26 19:55:25 --> Final output sent to browser
+DEBUG - 2016-09-26 19:55:25 --> Total execution time: 0.1698
+INFO - 2016-09-26 19:55:26 --> Config Class Initialized
+INFO - 2016-09-26 19:55:26 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:55:26 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:55:26 --> URI Class Initialized
+INFO - 2016-09-26 19:55:26 --> Router Class Initialized
+INFO - 2016-09-26 19:55:26 --> Output Class Initialized
+INFO - 2016-09-26 19:55:26 --> Security Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:55:26 --> Input Class Initialized
+INFO - 2016-09-26 19:55:26 --> Language Class Initialized
+INFO - 2016-09-26 19:55:26 --> Loader Class Initialized
+INFO - 2016-09-26 19:55:26 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:55:26 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:55:26 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:55:26 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Email Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> User Agent Class Initialized
+INFO - 2016-09-26 19:55:26 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Final output sent to browser
+DEBUG - 2016-09-26 19:55:26 --> Total execution time: 0.1146
+INFO - 2016-09-26 19:55:26 --> Config Class Initialized
+INFO - 2016-09-26 19:55:26 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:55:26 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:55:26 --> URI Class Initialized
+INFO - 2016-09-26 19:55:26 --> Router Class Initialized
+INFO - 2016-09-26 19:55:26 --> Output Class Initialized
+INFO - 2016-09-26 19:55:26 --> Security Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:55:26 --> Input Class Initialized
+INFO - 2016-09-26 19:55:26 --> Language Class Initialized
+INFO - 2016-09-26 19:55:26 --> Loader Class Initialized
+INFO - 2016-09-26 19:55:26 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:55:26 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:55:26 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:55:26 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:55:26 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Email Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:26 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:26 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:27 --> User Agent Class Initialized
+INFO - 2016-09-26 19:55:27 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:27 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:28 --> Config Class Initialized
+INFO - 2016-09-26 19:55:28 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:55:28 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:55:28 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:55:28 --> URI Class Initialized
+INFO - 2016-09-26 19:55:28 --> Router Class Initialized
+INFO - 2016-09-26 19:55:28 --> Output Class Initialized
+INFO - 2016-09-26 19:55:28 --> Security Class Initialized
+DEBUG - 2016-09-26 19:55:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:55:28 --> Input Class Initialized
+INFO - 2016-09-26 19:55:28 --> Language Class Initialized
+INFO - 2016-09-26 19:55:28 --> Loader Class Initialized
+INFO - 2016-09-26 19:55:28 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:55:28 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:55:28 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:55:28 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:55:28 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:55:28 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:55:28 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:55:28 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:55:28 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:55:28 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:55:28 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:55:28 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:55:28 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:55:28 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:55:28 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:55:28 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:28 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:28 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:28 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:28 --> Email Class Initialized
+DEBUG - 2016-09-26 19:55:28 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:28 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:28 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:28 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:28 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:28 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:28 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:28 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:28 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:55:28 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:55:28 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:28 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:28 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:28 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:28 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:28 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:28 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:28 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:28 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:28 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:28 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:28 --> User Agent Class Initialized
+INFO - 2016-09-26 19:55:28 --> Final output sent to browser
+DEBUG - 2016-09-26 19:55:28 --> Total execution time: 0.1500
+INFO - 2016-09-26 19:55:37 --> Config Class Initialized
+INFO - 2016-09-26 19:55:37 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:55:37 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:55:37 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:55:37 --> URI Class Initialized
+INFO - 2016-09-26 19:55:37 --> Router Class Initialized
+INFO - 2016-09-26 19:55:37 --> Output Class Initialized
+INFO - 2016-09-26 19:55:37 --> Security Class Initialized
+DEBUG - 2016-09-26 19:55:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:55:37 --> Input Class Initialized
+INFO - 2016-09-26 19:55:37 --> Language Class Initialized
+INFO - 2016-09-26 19:55:37 --> Loader Class Initialized
+INFO - 2016-09-26 19:55:37 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:55:37 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:55:37 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:55:37 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:55:37 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:55:37 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:55:37 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:55:37 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:55:37 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:55:37 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:55:37 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:55:37 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:55:37 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:55:37 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:55:37 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:37 --> Email Class Initialized
+DEBUG - 2016-09-26 19:55:37 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:37 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:37 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:37 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:37 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:55:37 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:37 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:37 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:37 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:37 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:37 --> User Agent Class Initialized
+INFO - 2016-09-26 19:55:37 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:37 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/head.php
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:37 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/header.php
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:37 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/customizer-sidebar.php
+DEBUG - 2016-09-26 19:55:37 --> Perfex_base class already loaded. Second attempt ignored.
+ERROR - 2016-09-26 19:55:37 --> Could not find the language line "Ticket Pipe Log"
+INFO - 2016-09-26 19:55:37 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/aside.php
+INFO - 2016-09-26 19:55:37 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/scripts.php
+INFO - 2016-09-26 19:55:37 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/leads/manage_statuses.php
+INFO - 2016-09-26 19:55:37 --> Final output sent to browser
+DEBUG - 2016-09-26 19:55:37 --> Total execution time: 0.1663
+INFO - 2016-09-26 19:55:37 --> Config Class Initialized
+INFO - 2016-09-26 19:55:37 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:55:37 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:55:37 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:55:37 --> URI Class Initialized
+INFO - 2016-09-26 19:55:37 --> Router Class Initialized
+INFO - 2016-09-26 19:55:37 --> Output Class Initialized
+INFO - 2016-09-26 19:55:37 --> Security Class Initialized
+DEBUG - 2016-09-26 19:55:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:55:38 --> Input Class Initialized
+INFO - 2016-09-26 19:55:38 --> Language Class Initialized
+INFO - 2016-09-26 19:55:38 --> Loader Class Initialized
+INFO - 2016-09-26 19:55:38 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:55:38 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:55:38 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:55:38 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:55:38 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:55:38 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:55:38 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:55:38 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:55:38 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:55:38 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:55:38 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:55:38 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:55:38 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:55:38 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:55:38 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:55:38 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:38 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:38 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:38 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:38 --> Email Class Initialized
+DEBUG - 2016-09-26 19:55:38 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:38 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:38 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:38 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:38 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:38 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:38 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:38 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:38 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:55:38 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:55:38 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:38 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:38 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:38 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:38 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:38 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:38 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:38 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:38 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:38 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:38 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:38 --> User Agent Class Initialized
+INFO - 2016-09-26 19:55:38 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:38 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:38 --> Final output sent to browser
+DEBUG - 2016-09-26 19:55:38 --> Total execution time: 0.2021
+INFO - 2016-09-26 19:55:51 --> Config Class Initialized
+INFO - 2016-09-26 19:55:51 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:55:51 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:55:51 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:55:51 --> URI Class Initialized
+INFO - 2016-09-26 19:55:51 --> Router Class Initialized
+INFO - 2016-09-26 19:55:51 --> Output Class Initialized
+INFO - 2016-09-26 19:55:51 --> Security Class Initialized
+DEBUG - 2016-09-26 19:55:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:55:51 --> Input Class Initialized
+INFO - 2016-09-26 19:55:51 --> Language Class Initialized
+INFO - 2016-09-26 19:55:51 --> Loader Class Initialized
+INFO - 2016-09-26 19:55:51 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:55:51 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:55:51 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:55:51 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:55:51 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:55:51 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:55:51 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:55:51 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:55:51 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:55:51 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:55:51 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:55:51 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:55:51 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:55:51 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:55:51 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:51 --> Email Class Initialized
+DEBUG - 2016-09-26 19:55:51 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:51 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:51 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:51 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:51 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:55:51 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:51 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:51 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:51 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:51 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:51 --> User Agent Class Initialized
+INFO - 2016-09-26 19:55:51 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Email class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:51 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/head.php
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:51 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/header.php
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:51 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/customizer-sidebar.php
+DEBUG - 2016-09-26 19:55:51 --> Perfex_base class already loaded. Second attempt ignored.
+ERROR - 2016-09-26 19:55:51 --> Could not find the language line "Ticket Pipe Log"
+INFO - 2016-09-26 19:55:51 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/aside.php
+INFO - 2016-09-26 19:55:51 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/scripts.php
+INFO - 2016-09-26 19:55:51 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/emails/email_templates.php
+INFO - 2016-09-26 19:55:51 --> Final output sent to browser
+DEBUG - 2016-09-26 19:55:51 --> Total execution time: 0.3221
+INFO - 2016-09-26 19:55:52 --> Config Class Initialized
+INFO - 2016-09-26 19:55:52 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:55:52 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:55:52 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:55:52 --> URI Class Initialized
+INFO - 2016-09-26 19:55:52 --> Router Class Initialized
+INFO - 2016-09-26 19:55:52 --> Output Class Initialized
+INFO - 2016-09-26 19:55:52 --> Security Class Initialized
+DEBUG - 2016-09-26 19:55:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:55:52 --> Input Class Initialized
+INFO - 2016-09-26 19:55:52 --> Language Class Initialized
+INFO - 2016-09-26 19:55:52 --> Loader Class Initialized
+INFO - 2016-09-26 19:55:52 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:55:52 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:55:52 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:55:52 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:55:52 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:55:52 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:55:52 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:55:52 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:55:52 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:55:52 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:55:52 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:55:52 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:55:52 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:55:52 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:55:52 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:55:52 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:52 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:52 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:52 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:52 --> Email Class Initialized
+DEBUG - 2016-09-26 19:55:52 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:52 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:52 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:52 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:52 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:52 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:52 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:52 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:52 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:55:52 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:55:52 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:52 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:52 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:52 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:52 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:52 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:52 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:52 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:52 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:52 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:52 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:52 --> User Agent Class Initialized
+INFO - 2016-09-26 19:55:52 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:52 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:52 --> Final output sent to browser
+DEBUG - 2016-09-26 19:55:52 --> Total execution time: 0.1934
+INFO - 2016-09-26 19:55:56 --> Config Class Initialized
+INFO - 2016-09-26 19:55:56 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:55:56 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:55:56 --> URI Class Initialized
+INFO - 2016-09-26 19:55:56 --> Router Class Initialized
+INFO - 2016-09-26 19:55:56 --> Output Class Initialized
+INFO - 2016-09-26 19:55:56 --> Security Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:55:56 --> Input Class Initialized
+INFO - 2016-09-26 19:55:56 --> Language Class Initialized
+INFO - 2016-09-26 19:55:56 --> Loader Class Initialized
+INFO - 2016-09-26 19:55:56 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:55:56 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:55:56 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:55:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Email Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> User Agent Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/head.php
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/header.php
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/customizer-sidebar.php
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+ERROR - 2016-09-26 19:55:56 --> Could not find the language line "Ticket Pipe Log"
+INFO - 2016-09-26 19:55:56 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/aside.php
+DEBUG - 2016-09-26 19:55:56 --> User_agent class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/scripts.php
+INFO - 2016-09-26 19:55:56 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/roles/manage.php
+INFO - 2016-09-26 19:55:56 --> Final output sent to browser
+DEBUG - 2016-09-26 19:55:56 --> Total execution time: 0.1751
+INFO - 2016-09-26 19:55:56 --> Config Class Initialized
+INFO - 2016-09-26 19:55:56 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:55:56 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:55:56 --> URI Class Initialized
+INFO - 2016-09-26 19:55:56 --> Router Class Initialized
+INFO - 2016-09-26 19:55:56 --> Output Class Initialized
+INFO - 2016-09-26 19:55:56 --> Security Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:55:56 --> Input Class Initialized
+INFO - 2016-09-26 19:55:56 --> Language Class Initialized
+INFO - 2016-09-26 19:55:56 --> Loader Class Initialized
+INFO - 2016-09-26 19:55:56 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:55:56 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:55:56 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:55:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Email Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> User Agent Class Initialized
+INFO - 2016-09-26 19:55:56 --> Config Class Initialized
+INFO - 2016-09-26 19:55:56 --> Hooks Class Initialized
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:55:56 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:55:56 --> Final output sent to browser
+DEBUG - 2016-09-26 19:55:56 --> Total execution time: 0.1350
+INFO - 2016-09-26 19:55:56 --> URI Class Initialized
+INFO - 2016-09-26 19:55:56 --> Router Class Initialized
+INFO - 2016-09-26 19:55:56 --> Output Class Initialized
+INFO - 2016-09-26 19:55:56 --> Security Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:55:56 --> Input Class Initialized
+INFO - 2016-09-26 19:55:56 --> Language Class Initialized
+INFO - 2016-09-26 19:55:56 --> Loader Class Initialized
+INFO - 2016-09-26 19:55:56 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:55:56 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:55:56 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:55:56 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:55:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Email Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> Model Class Initialized
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:55:56 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:55:56 --> User Agent Class Initialized
+INFO - 2016-09-26 19:56:06 --> Config Class Initialized
+INFO - 2016-09-26 19:56:06 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:56:06 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:56:06 --> URI Class Initialized
+INFO - 2016-09-26 19:56:06 --> Router Class Initialized
+INFO - 2016-09-26 19:56:06 --> Output Class Initialized
+INFO - 2016-09-26 19:56:06 --> Security Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:56:06 --> Input Class Initialized
+INFO - 2016-09-26 19:56:06 --> Language Class Initialized
+INFO - 2016-09-26 19:56:06 --> Loader Class Initialized
+INFO - 2016-09-26 19:56:06 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:56:06 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:56:06 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:56:06 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Email Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Model Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Model Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Model Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Model Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Model Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Model Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Model Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> User Agent Class Initialized
+INFO - 2016-09-26 19:56:06 --> Model Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/head.php
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/header.php
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/customizer-sidebar.php
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+ERROR - 2016-09-26 19:56:06 --> Could not find the language line "Ticket Pipe Log"
+INFO - 2016-09-26 19:56:06 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/aside.php
+INFO - 2016-09-26 19:56:06 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/includes/scripts.php
+INFO - 2016-09-26 19:56:06 --> File loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/views/admin/leads/manage_statuses.php
+INFO - 2016-09-26 19:56:06 --> Final output sent to browser
+DEBUG - 2016-09-26 19:56:06 --> Total execution time: 0.1677
+INFO - 2016-09-26 19:56:06 --> Config Class Initialized
+INFO - 2016-09-26 19:56:06 --> Hooks Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> UTF-8 Support Enabled
+INFO - 2016-09-26 19:56:06 --> Utf8 Class Initialized
+INFO - 2016-09-26 19:56:06 --> URI Class Initialized
+INFO - 2016-09-26 19:56:06 --> Router Class Initialized
+INFO - 2016-09-26 19:56:06 --> Output Class Initialized
+INFO - 2016-09-26 19:56:06 --> Security Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-26 19:56:06 --> Input Class Initialized
+INFO - 2016-09-26 19:56:06 --> Language Class Initialized
+INFO - 2016-09-26 19:56:06 --> Loader Class Initialized
+INFO - 2016-09-26 19:56:06 --> Helper loaded: url_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: file_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: form_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: perfex_action_hooks_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: perfex_general_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: perfex_html_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: perfex_db_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: perfex_upload_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: perfex_sales_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: perfex_themes_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: perfex_constants_helper
+INFO - 2016-09-26 19:56:06 --> Helper loaded: my_functions_helper
+INFO - 2016-09-26 19:56:06 --> Language file loaded: language/english/english_lang.php
+INFO - 2016-09-26 19:56:06 --> Session: Class initialized using 'files' driver.
+INFO - 2016-09-26 19:56:06 --> Database Driver Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Email Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Action_hooks class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Model Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Model Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Model Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Controller Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Config file loaded: /Users/mcandres/Documents/sandbox/webroot/nuhart/perfex_crm/application/config/migration.php
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Model Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Model Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Model Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Model Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> User Agent Class Initialized
+INFO - 2016-09-26 19:56:06 --> Model Class Initialized
+DEBUG - 2016-09-26 19:56:06 --> Perfex_base class already loaded. Second attempt ignored.
+INFO - 2016-09-26 19:56:06 --> Final output sent to browser
+DEBUG - 2016-09-26 19:56:06 --> Total execution time: 0.1342
