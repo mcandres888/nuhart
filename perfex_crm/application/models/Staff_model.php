@@ -34,7 +34,15 @@ class Staff_model extends CRM_Model
    *  
    */
    public function getStaff () {
-       $query ="select * from tblstaff where admin=0";
+       if (is_admin()) {
+           $query ="select * from tblstaff where admin=0";
+       } else {
+        
+          $id = get_staff_user_id();
+          $query ="select * from tblstaff where staffid=$id";
+ 
+
+       }
        $res = $this->db->query($query);
        $result_array = [];
        foreach ($res->result_array() as $val) {

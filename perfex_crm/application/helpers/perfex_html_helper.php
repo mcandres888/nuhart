@@ -94,6 +94,34 @@ function init_relation_tasks_table($table_attributes = array())
     return $table;
 }
 
+
+function init_relation_medical_table($table_attributes = array())
+{
+    $table_data = array(
+        _l('tasks_dt_name'),
+        _l('tasks_dt_datestart')
+    );
+
+    $custom_fields = get_custom_fields('tasks', array(
+        'show_on_table' => 1
+    ));
+    foreach ($custom_fields as $field) {
+        array_push($table_data, $field['name']);
+    }
+    $table = render_datatable($table_data, 'rel-tasks', array(), $table_attributes);
+    $table .= '<div class="modal fade task-related-modal-single" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>';
+    return $table;
+}
+
+
+
 function get_relation_data($type, $rel_id = '')
 {
 

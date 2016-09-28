@@ -85,10 +85,17 @@
             </a>
         </li>
         <li role="presentation">
+            <a href="#tab_medical" aria-controls="tab_medical" role="tab" data-toggle="tab">
+                Medical Record
+            </a>
+        </li>
+ 
+        <li role="presentation">
             <a href="#tab_attachments" aria-controls="tab_attachments" role="tab" data-toggle="tab">
                 <?php echo _l( 'customer_attachments'); ?>
             </a>
         </li>
+
         <li role="presentation">
             <a href="#tab_map" aria-controls="tab_map" role="tab" data-toggle="tab">
                 <?php echo _l( 'customer_map'); ?>
@@ -505,6 +512,11 @@ render_datatable($table_data,'proposals-client-profile');
 <div role="tabpanel" class="tab-pane ptop10" id="tab_tasks">
     <?php init_relation_tasks_table(array( 'data-new-rel-id'=>$client->userid,'data-new-rel-type'=>'customer')); ?>
 </div>
+
+<div role="tabpanel" class="tab-pane ptop10" id="tab_medical">
+    <?php init_relation_medical_table(array( 'data-new-rel-id'=>$client->userid,'data-new-rel-type'=>'customer')); ?>
+</div>
+
 <div role="tabpanel" class="tab-pane ptop10" id="tab_map">
     <?php if($google_api_key !== ''){ ?>
     <div id="map" class="customer_map"></div>
