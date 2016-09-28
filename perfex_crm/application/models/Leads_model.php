@@ -173,6 +173,17 @@ class Leads_model extends CRM_Model
             $data['lastcontact'] = to_sql_date($data['custom_contact_date']);
         }
 
+
+       if(isset($data['custom_fields'])){
+            $custom_fields = $data['custom_fields'];
+            if(handle_custom_fields_post($id,$custom_fields)){
+                $affectedRows++;
+            }   
+            unset($data['custom_fields']);
+        }   
+
+
+
         if(isset($data['custom_fields'])){
             $custom_fields = $data['custom_fields'];
             unset($data['custom_fields']);

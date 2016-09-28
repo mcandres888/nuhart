@@ -26,13 +26,15 @@ class Api extends CI_Controller
          $retval = $lead->get(1);
 
          $post_data = $this->input->post();
-         print_r($post_data);
          $leadjson = array();
          $leadjson['name']  = $post_data['name'];
          $leadjson['contacted_today']  = true;
          $leadjson['email']  = $post_data['email'];
          $leadjson['phonenumber']  = $post_data['phonenumber'];
          $leadjson['status']  = 1;
+         $leadjson['source']  = 3;
+         $leadjson['custom_fields']  = array("leads" => array(2 => $post_data['message']));
+         print_r($post_data);
          # assign to user
          # need to add round robin here
       
@@ -41,7 +43,7 @@ class Api extends CI_Controller
          $leadjson['assigned']  = $lead->getStaffToAssigned();
 
          $leadid = $lead->addFromGenerator($leadjson);
-
+/*
          $note = array();
          $note['leadid'] = $leadid;
          $note['description'] = $post_data['message'];
@@ -49,6 +51,7 @@ class Api extends CI_Controller
          # add note
          $lead->add_note($note)   ;
      
+*/
 
          echo '{ "result" : "ok"}';
 

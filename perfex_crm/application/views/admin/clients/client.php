@@ -545,6 +545,7 @@ render_datatable($table_data,'proposals-client-profile');
     include_once(APPPATH . 'views/admin/clients/modals/zip_estimates.php'); ?>
     <script>
         initDataTable('.table-rel-tasks', admin_url + 'tasks/init_relation_tasks/<?php echo $client->userid; ?>/customer', 'tasks');
+        initDataTable('.table-rel-medical', admin_url + 'medical/init_relation_medical/<?php echo $client->userid; ?>/customer', 'medical');
     </script>
     <?php if(!empty($google_api_key)){ ?>
     <script>
