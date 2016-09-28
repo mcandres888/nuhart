@@ -167,6 +167,10 @@ class Clients extends Admin_controller {
 			// Get all active staff members (used to add reminder)
 			$this->load->model('staff_model');
 			$data['members'] = $this->staff_model->get('',1);
+
+			$this->load->model('leads_model');
+			$data['nurses'] = $this->leads_model->get_nurses();
+
 			if($this->input->is_ajax_request()){
 				AdminTicketsTable(array('userid'=>$id));
 			}

@@ -99,7 +99,7 @@ function init_relation_medical_table($table_attributes = array())
 {
     $table_data = array(
         _l('tasks_dt_name'),
-        _l('tasks_dt_datestart')
+        'Date'
     );
 
     $custom_fields = get_custom_fields('tasks', array(

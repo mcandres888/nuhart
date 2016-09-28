@@ -59,6 +59,7 @@
                 <?php echo _l( 'client_payments_tab'); ?>
             </a>
         </li>
+<!--
         <li role="presentation">
             <a href="#expenses" aria-controls="estimates" role="tab" data-toggle="tab">
                 <?php echo _l( 'client_expenses_tab'); ?>
@@ -74,6 +75,7 @@
                 <?php echo _l( 'contracts_tickets_tab'); ?>
             </a>
         </li>
+-->
         <li role="presentation">
             <a href="#reminders" aria-controls="reminders" role="tab" data-toggle="tab">
                 <?php echo _l( 'client_reminders_tab'); ?>
@@ -96,11 +98,13 @@
             </a>
         </li>
 
+<!--
         <li role="presentation">
             <a href="#tab_map" aria-controls="tab_map" role="tab" data-toggle="tab">
                 <?php echo _l( 'customer_map'); ?>
             </a>
         </li>
+-->
         <li role="presentation">
             <a href="#notes" aria-controls="notes" role="tab" data-toggle="tab">
                 <?php echo _l( 'contracts_notes_tab'); ?>
@@ -136,6 +140,7 @@
                                     <?php echo _l( 'customer_profile_details'); ?>
                                 </a>
                             </li>
+<!--
                             <li role="presentation">
                                 <a href="#billing_and_shipping" aria-controls="billing_and_shipping" role="tab" data-toggle="tab">
                                     <?php echo _l( 'billing_shipping'); ?>
@@ -151,6 +156,7 @@
                                 <?php echo _l('advanced_options'); ?>
                             </a>
                         </li>
+-->
                     </ul>
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane ptop10 active" id="contact_info">
@@ -171,6 +177,7 @@
                                     <?php $value=( isset($client) ? $client->vat : ''); ?>
                                     <?php echo render_input( 'vat', 'client_vat_number',$value); ?>
 
+<!--
                                     <?php $value=( isset($client) ? $client->latitude : ''); ?>
                                     <?php echo render_input( 'latitude', 'customer_latitude',$value); ?>
 
@@ -208,6 +215,7 @@
                                             <?php echo _l( 'client_send_set_password_email'); ?>
                                         </label>
                                     </div>
+-->
 
                                 </div>
                                 <div class="col-md-4">
@@ -226,6 +234,7 @@
                                     <?php $value=( isset($client) ? $client->phonenumber : ''); ?>
                                     <?php echo render_input( 'phonenumber', 'client_phonenumber',$value); ?>
 
+<!--
                                     <div class="form-group">
                                         <label for="country" class="control-label">
                                             <?php if(isset($client)){ if(file_exists(FCPATH . 'assets/images/country-flags/'.$client->iso2 . '.png')){ ?>
@@ -251,6 +260,7 @@
                                         <?php } ?>
                                     </select>
                                 </div>
+-->
 
                             </div>
                             <div class="col-md-4">
@@ -443,6 +453,11 @@ render_datatable($table_data,'proposals-client-profile');
 
     </div>
 </div>
+
+
+
+
+
 <div role="tabpanel" class="tab-pane ptop10" id="notes">
     <a href="#" class="btn btn-success btn-icon pull-right" onclick="slideToggle('.usernote'); return false;"><i class="fa fa-plus"></i>
     </a>
@@ -499,13 +514,19 @@ render_datatable($table_data,'proposals-client-profile');
     </p>
     <?php } ?>
 </div>
+
+
+
+
 <div role="tabpanel" class="tab-pane ptop10" id="tickets">
     <?php echo AdminTicketsTableStructure(); ?>
 </div>
+
 <div role="tabpanel" class="tab-pane ptop10" id="reminders">
  <a href="#" data-toggle="modal" data-target=".reminder-modal"><i class="fa fa-bell-o"> <?php echo _l('set_reminder'); ?></i></a>
  <?php render_datatable(array( _l( 'reminder_description'), _l( 'reminder_date'), _l( 'reminder_staff'), _l( 'reminder_is_notified'), _l( 'options'), ), 'reminders'); ?>
 </div>
+
 <div role="tabpanel" class="tab-pane ptop10" id="contracts">
     <?php render_datatable(array( _l( 'contract_list_client'), _l( 'contract_list_subject'), _l('contract_types_list_name'),_l( 'contract_list_start_date'), _l( 'contract_list_end_date'), _l( 'options'), ), 'contracts-single-client'); ?>
 </div>
@@ -514,7 +535,9 @@ render_datatable($table_data,'proposals-client-profile');
 </div>
 
 <div role="tabpanel" class="tab-pane ptop10" id="tab_medical">
-    <?php init_relation_medical_table(array( 'data-new-rel-id'=>$client->userid,'data-new-rel-type'=>'customer')); ?>
+ <a href="#" data-toggle="modal" data-target=".medical-modal"><i class="fa fa-tasks"> Create Medical Record</i></a>
+ <?php render_datatable(array( _l( 'reminder_description'), _l( 'reminder_date'), _l( 'reminder_staff'), _l( 'reminder_is_notified'), _l( 'options'), ), 'medical'); ?>
+
 </div>
 
 <div role="tabpanel" class="tab-pane ptop10" id="tab_map">
@@ -541,11 +564,11 @@ render_datatable($table_data,'proposals-client-profile');
     include_once(APPPATH . 'views/admin/clients/modals/send_file_modal.php');
     include_once(APPPATH . 'views/admin/clients/modals/zip_payments.php');
     include_once(APPPATH . 'views/admin/clients/modals/add_reminder.php');
+    include_once(APPPATH . 'views/admin/clients/modals/add_medical.php');
     include_once(APPPATH . 'views/admin/clients/modals/zip_invoices.php');
     include_once(APPPATH . 'views/admin/clients/modals/zip_estimates.php'); ?>
     <script>
         initDataTable('.table-rel-tasks', admin_url + 'tasks/init_relation_tasks/<?php echo $client->userid; ?>/customer', 'tasks');
-        initDataTable('.table-rel-medical', admin_url + 'medical/init_relation_medical/<?php echo $client->userid; ?>/customer', 'medical');
     </script>
     <?php if(!empty($google_api_key)){ ?>
     <script>
@@ -579,6 +602,7 @@ render_datatable($table_data,'proposals-client-profile');
       initDataTable('.table-estimates-single-client', admin_url + 'estimates/list_estimates/false/' + customer_id, 'estimates');
       initDataTable('.table-payments-single-client', admin_url + 'payments/list_payments/' + customer_id, 'payments', [6], [6]);
       initDataTable('.table-reminders', admin_url + 'misc/get_reminders/' + customer_id + '/' + 'customer', 'reminders', [4], [4]);
+      initDataTable('.table-medical', admin_url + 'misc/get_medical/' + customer_id + '/' + 'customer', 'medical', [4], [4]);
       initDataTable('.table-expenses-single-client', admin_url + 'expenses/list_expenses/false/' + customer_id, 'expenses', 'undefined', 'undefined');
       initDataTable('.table-proposals-client-profile', admin_url + 'proposals/proposal_relations/' + customer_id + '/customer', 'proposals', 'undefined', 'undefined');
       _validate_form($('.client-form'), {
