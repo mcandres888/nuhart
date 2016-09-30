@@ -30,6 +30,80 @@ class Misc_model extends CRM_Model
         return $select;
     }
 
+/**
+ *  M E D I C A L  R E C O R D 
+ */
+
+    /**
+     * Add medical record
+     * @since  Version 1.0.2
+     * @param mixed $data All $_POST data for the reminder
+     * @param mixed $id   relid id
+     * @return boolean
+     */
+    public function add_medical($data, $id)
+    {
+
+
+        $data['date']        = to_sql_date($data['date']);
+        $data['creator']     = get_staff_user_id();
+        $data['staff']     = get_staff_user_id();
+        $this->db->insert('tblmedical', $data);
+
+        $insert_id = $this->db->insert_id();
+        if ($insert_id) {
+            logActivity('New Medical Record Added [' . ucfirst($data['rel_type']) . 'ID: ' . $data['rel_id']);
+            return true;
+        }
+
+        return false;
+    }
+
+
+    /**
+     * Get all medical or 1 reminder if id is passed
+     * @since Version 1.0.2
+     * @param  mixed $id reminder id OPTIONAL
+     * @return array or object
+     */
+    public function get_medical($id = '')
+    {
+
+        $this->db->join('tblstaff', 'tblstaff.staffid = tblmedical.staff');
+
+        if (is_numeric($id)) {
+            $this->db->where('tblmedical.id', $id);
+            return $this->db->get('tblmedical')->row();
+        }
+
+        $this->db->order_by('date', 'desc');
+        return $this->db->get('tblmedical')->result_array();
+    }
+
+    /**
+     * Remove client medical from database
+     * @since Version 1.0.2
+     * @param  mixed $id reminder id
+     * @return boolean
+     */
+    public function delete_medical($id)
+    {
+        $reminder = $this->get_medical($id);
+        if ($reminder->creator == get_staff_user_id() || is_admin()) {
+            $this->db->where('id', $id);
+            $this->db->delete('tblmedical');
+            if ($this->db->affected_rows() > 0) {
+                logActivity('Medical Record Deleted [' . ucfirst($reminder->rel_type) . 'ID: ' . $reminder->id . ' Notes: ' . $reminder->notes . ']');
+                return true;
+            }
+            return false;
+        }
+
+        return false;
+    }
+
+
+
     /**
      * Add reminder
      * @since  Version 1.0.2

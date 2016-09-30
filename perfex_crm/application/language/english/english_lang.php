@@ -22,13 +22,13 @@ $lang['error_uploading_file'] = 'Error uploading file';
 $lang['load_more'] = 'Load More';
 $lang['cant_delete_default'] = 'Cant delete default %s';
 
-# Invoice General
+# Session General
 $lang['invoice_status_paid'] = 'Paid';
 $lang['invoice_status_unpaid'] = 'Unpaid';
 $lang['invoice_status_overdue'] = 'Overdue';
 $lang['invoice_status_not_paid_completely'] = 'Partially Paid';
 
-$lang['invoice_pdf_heading'] = 'INVOICE';
+$lang['invoice_pdf_heading'] = 'SESSIONS';
 
 $lang['invoice_table_item_heading'] = 'Item';
 $lang['invoice_table_quantity_heading'] = 'Qty';
@@ -40,10 +40,10 @@ $lang['invoice_adjustment'] = 'Adjustment';
 $lang['invoice_total'] = 'Total';
 $lang['invoice_vat'] = 'VAT Number';
 $lang['invoice_bill_to'] = 'Bill To';
-$lang['invoice_data_date'] = 'Invoice Date:';
+$lang['invoice_data_date'] = 'Session Date:';
 $lang['invoice_data_duedate'] = 'Due Date:';
 $lang['invoice_received_payments'] = 'Transactions';
-$lang['invoice_no_payments_found'] = 'No Payments found for this invoice';
+$lang['invoice_no_payments_found'] = 'No Payments found for this session';
 $lang['invoice_note'] = 'Note:';
 $lang['invoice_payments_table_number_heading'] = 'Payment #';
 $lang['invoice_payments_table_mode_heading'] = 'Payment Mode';
@@ -68,8 +68,8 @@ $lang['clients'] = 'Patients';
 $lang['client'] = 'Patient';
 $lang['new_client'] = 'New Patient';
 $lang['client_lowercase'] = 'patient';
-$lang['client_delete_tooltip'] = 'All patient data will be deleted. Contracts,tickets,notes. NOTE: If invoices found patient wont be deleted. You need to assign this invoices to another patient to keep the invoice number';
-$lang['customer_delete_invoices_warning'] = 'This patient have invoices on the account. You cant delete this patient. Change all invoices to another patient in a future then delete.';
+$lang['client_delete_tooltip'] = 'All patient data will be deleted. Contracts,tickets,notes. NOTE: If Sessions found patient wont be deleted. You need to assign this sessions to another patient to keep the session number';
+$lang['customer_delete_invoices_warning'] = 'This patient have sessions on the account. You cant delete this patient. Change all sessions to another patient in a future then delete.';
 $lang['client_firstname'] = 'First Name';
 $lang['client_lastname'] = 'Last Name';
 $lang['client_email'] = 'Email';
@@ -83,11 +83,11 @@ $lang['client_password'] = 'Password';
 $lang['client_password_change_populate_note'] = 'Note: if you populate this fields, password will be changed on this patient.';
 $lang['client_password_last_changed'] = 'Password last changed:';
 $lang['login_as_client'] = 'Login as client';
-$lang['client_invoices_tab'] = 'Invoices';
+$lang['client_invoices_tab'] = 'Sessions';
 $lang['contracts_invoices_tab'] = 'Contracts';
 $lang['contracts_tickets_tab'] = 'Tickets';
 $lang['contracts_notes_tab'] = 'Notes';
-$lang['client_invoice_number_table_heading'] = 'Invoice #';
+$lang['client_invoice_number_table_heading'] = 'Session #';
 $lang['client_invoice_date_table_heading'] = 'Date';
 $lang['client_invoice_due_date_table_heading'] = 'Due Date';
 $lang['client_string_table_heading'] = 'Client';
@@ -167,7 +167,7 @@ $lang['email_template'] = 'Email Template';
 $lang['email_template_lowercase'] = 'email template';
 $lang['email_templates_lowercase'] = 'email templates';
 $lang['email_template_ticket_fields_heading'] = 'Tickets';
-$lang['email_template_invoices_fields_heading'] = 'Invoices';
+$lang['email_template_invoices_fields_heading'] = 'Sessions';
 $lang['email_template_clients_fields_heading'] = 'Patients';
 
 $lang['template_name'] = 'Template Name';
@@ -216,11 +216,11 @@ $lang['comment_this_post_placeholder'] = 'Comment this post..';
 $lang['newsfeed_post_likes_modal_heading'] = 'Coleques who like this post';
 $lang['newsfeed_comment_likes_modal_heading'] = 'Coleques who like this comment';
 $lang['newsfeed_newsfeed_post_only_visible_to_departments'] = 'This post is only visible to the following departments: %s';
-# Invoice Items
-$lang['invoice_items'] = 'Invoice Items';
-$lang['invoice_item'] = 'Invoice Item';
+# Session Items
+$lang['invoice_items'] = 'Session Items';
+$lang['invoice_item'] = 'Session Item';
 $lang['new_invoice_item'] = 'New Item';
-$lang['invoice_item_lowercase'] = 'invoice item';
+$lang['invoice_item_lowercase'] = 'session item';
 
 $lang['invoice_items_list_description'] = 'Description';
 $lang['invoice_items_list_rate'] = 'Rate';
@@ -234,27 +234,27 @@ $lang['invoice_item_add_edit_tax_select'] = 'Select Tax';
 $lang['invoice_item_edit_heading'] = 'Edit Item';
 $lang['invoice_item_add_heading'] = 'Add New Item';
 
-# Invoices
+# Sessions
 
 
-$lang['invoices'] = 'Invoices';
-$lang['invoice'] = 'Invoice';
-$lang['invoice_lowercase'] = 'invoice';
-$lang['create_new_invoice'] = 'Create New Invoice';
-$lang['view_invoice'] = 'View Invoice';
-$lang['invoice_number_changed'] = 'Invoice created successfuly but the number is changed becuase someone added new invoice before you.';
-$lang['invoice_payment_recorded'] = 'Invoice Payment Recorded';
-$lang['invoice_payment_record_failed'] = 'Failed to Record Invoice Payment';
-$lang['invoice_sent_to_client_success'] = 'The invoice is sent successfuly to the client';
-$lang['invoice_sent_to_client_fail'] = 'Problem while sending the invoice';
-$lang['invoice_reminder_send_problem'] = 'Problem sending invoice overdue reminder';
-$lang['invoice_overdue_reminder_sent'] = 'Invoice Overdue Reminder Successfuly Sent';
+$lang['invoices'] = 'Sessions';
+$lang['invoice'] = 'Session';
+$lang['invoice_lowercase'] = 'session';
+$lang['create_new_invoice'] = 'Create New Session';
+$lang['view_invoice'] = 'View Session';
+$lang['invoice_number_changed'] = 'Session created successfuly but the number is changed becuase someone added new session before you.';
+$lang['invoice_payment_recorded'] = 'Session Payment Recorded';
+$lang['invoice_payment_record_failed'] = 'Failed to Record Session Payment';
+$lang['invoice_sent_to_client_success'] = 'The session is sent successfuly to the client';
+$lang['invoice_sent_to_client_fail'] = 'Problem while sending the session';
+$lang['invoice_reminder_send_problem'] = 'Problem sending session overdue reminder';
+$lang['invoice_overdue_reminder_sent'] = 'Session Overdue Reminder Successfuly Sent';
 
-$lang['invoice_details'] = 'Invoice Details';
-$lang['invoice_view'] = 'View Invoice';
+$lang['invoice_details'] = 'Session Details';
+$lang['invoice_view'] = 'View Session';
 $lang['invoice_select_customer'] = 'Patient';
-$lang['invoice_add_edit_number'] = 'Invoice Number';
-$lang['invoice_add_edit_date'] = 'Invoice Date';
+$lang['invoice_add_edit_number'] = 'Session Number';
+$lang['invoice_add_edit_date'] = 'Session Date';
 $lang['invoice_add_edit_duedate'] = 'Due Date';
 $lang['invoice_add_edit_currency'] = 'Currency';
 $lang['invoice_add_edit_client_note'] = 'Patient Note';
@@ -267,20 +267,20 @@ $lang['invoices_toggle_table_tooltip'] = 'View Full Table';
 
 
 
-$lang['edit_invoice_tooltip'] = 'Edit Invoice';
-$lang['delete_invoice_tooltip'] = 'Delete Invoice. Note: All payments regarding to this invoice will be deleted (if any).';
+$lang['edit_invoice_tooltip'] = 'Edit Session';
+$lang['delete_invoice_tooltip'] = 'Delete Session. Note: All payments regarding to this session will be deleted (if any).';
 $lang['invoice_sent_to_email_tooltip'] = 'Send to Email';
-$lang['invoice_already_send_to_client_tooltip'] = 'This invoice is already sent to the patient %s';
+$lang['invoice_already_send_to_client_tooltip'] = 'This session is already sent to the patient %s';
 $lang['send_overdue_notice_tooltip'] = 'Send Overdue Notice';
 $lang['invoice_view_activity_tooltip'] = 'Activity Log';
 $lang['invoice_record_payment'] = 'Record Payment';
 
 
-$lang['invoice_send_to_client_modal_heading'] = 'Send this invoice to client';
-$lang['invoice_send_to_client_attach_pdf'] = 'Attach Invoice PDF';
+$lang['invoice_send_to_client_modal_heading'] = 'Send this session to client';
+$lang['invoice_send_to_client_attach_pdf'] = 'Attach Session PDF';
 $lang['invoice_send_to_client_preview_template'] = 'Preview Email Template';
 
-$lang['invoice_dt_table_heading_number'] = 'Invoice #';
+$lang['invoice_dt_table_heading_number'] = 'Session #';
 $lang['invoice_dt_table_heading_date'] = 'Date';
 $lang['invoice_dt_table_heading_client'] = 'Client';
 $lang['invoice_dt_table_heading_duedate'] = 'Due Date';
@@ -294,21 +294,21 @@ $lang['record_payment_leave_note'] = 'Leave a note';
 $lang['invoice_payments_received'] = 'Payments Received';
 $lang['invoice_record_payment_note_placeholder'] = 'Admin Note';
 $lang['no_payments_found'] = 'No Payments found for this invoice';
-$lang['invoice_email_link_text'] = 'View Invoice';
+$lang['invoice_email_link_text'] = 'View Session';
 
 # Payments
 $lang['payments'] = 'Payments';
 $lang['payment'] = 'Payment';
 $lang['payment_lowercase'] = 'payment';
 $lang['payments_table_number_heading'] = 'Payment #';
-$lang['payments_table_invoicenumber_heading'] = 'Invoice #';
+$lang['payments_table_invoicenumber_heading'] = 'Session #';
 $lang['payments_table_mode_heading'] = 'Payment Mode';
 $lang['payments_table_date_heading'] = 'Date';
 $lang['payments_table_amount_heading'] = 'Amount';
 $lang['payments_table_client_heading'] = 'Client';
 $lang['payment_not_exists'] = 'The payment does not exists';
 
-$lang['payment_edit_for_invoice'] = 'Payment for Invoice';
+$lang['payment_edit_for_invoice'] = 'Payment for Session';
 $lang['payment_edit_amount_received'] = 'Amount Received';
 $lang['payment_edit_date'] = 'Payment Date';
 $lang['payment_edit_lave_note'] = 'Leave Note';
@@ -424,7 +424,7 @@ $lang['sales_report_heading'] = 'Sessions Report';
 $lang['report_sales_type_income'] = 'Total Income';
 
 $lang['report_sales_type_customer'] = 'Patient Report';
-$lang['report_sales_base_currency_select_explanation'] = 'You need to select currency becuase you have invoices with different currency';
+$lang['report_sales_base_currency_select_explanation'] = 'You need to select currency becuase you have sessions with different currency';
 $lang['report_sales_from_date'] = 'From Date';
 $lang['report_sales_to_date'] = 'To Date';
 
@@ -438,7 +438,7 @@ $lang['reports_sales_generated_report'] = 'Generated Report';
 
 
 $lang['reports_sales_dt_customers_client'] = 'Client';
-$lang['reports_sales_dt_customers_total_invoices'] = 'Total Invoices';
+$lang['reports_sales_dt_customers_total_invoices'] = 'Total Sessions';
 $lang['reports_sales_dt_items_customers_amount'] = 'Amount';
 $lang['reports_sales_dt_items_customers_amount_with_tax'] = 'Amount with Tax';
 
@@ -480,8 +480,8 @@ $lang['settings_clients_default_theme'] = 'Default clients theme';
 $lang['settings_clients_allow_registration'] = 'Allow clients to register';
 $lang['settings_clients_allow_kb_view_without_registration'] = 'Allow knowledge base to be viewed without registration';
 
-$lang['settings_cron_send_overdue_reminder'] = 'Send invoice overdue reminder';
-$lang['settings_cron_send_overdue_reminder_tooltip'] = 'Send overdue email to patient when invoice status updated to overdue from Cron Job';
+$lang['settings_cron_send_overdue_reminder'] = 'Send Session overdue reminder';
+$lang['settings_cron_send_overdue_reminder_tooltip'] = 'Send overdue email to patient when session status updated to overdue from Cron Job';
 $lang['automatically_send_invoice_overdue_reminder_after'] = 'Automatically send reminder after (days)';
 $lang['automatically_resend_invoice_overdue_reminder_after'] = 'Automatically re-send reminder after (days)';
 
@@ -521,25 +521,25 @@ $lang['settings_tickets_allowed_file_extensions'] = 'Allowed attachments file ex
 
 $lang['settings_sales_general'] = 'General';
 $lang['settings_sales_general_note'] = 'General settings';
-$lang['settings_sales_invoice_prefix'] = 'Invoice Number Prefix';
+$lang['settings_sales_invoice_prefix'] = 'Session Number Prefix';
 $lang['settings_sales_decimal_separator'] = 'Decimal Separator';
 $lang['settings_sales_thousand_separator'] = 'Thousand Separator';
 $lang['settings_sales_currency_placement'] = 'Currency Placement';
 $lang['settings_sales_currency_placement_before'] = 'Before Amount';
 $lang['settings_sales_currency_placement_after'] = 'After Amount';
-$lang['settings_sales_require_client_logged_in_to_view_invoice'] = 'Require patient to be logged in to view invoice';
-$lang['settings_sales_next_invoice_number'] = 'Next Invoice Number';
+$lang['settings_sales_require_client_logged_in_to_view_invoice'] = 'Require patient to be logged in to view session';
+$lang['settings_sales_next_invoice_number'] = 'Next Session Number';
 $lang['settings_sales_next_invoice_number_tooltip'] = 'Set this field to 1 if you want to start from begining';
 $lang['settings_sales_decrement_invoice_number_on_delete'] = 'Decrement invoice number on delete';
-$lang['settings_sales_decrement_invoice_number_on_delete_tooltip'] = 'Do you want to decrement the invoice number when the last invoice is deleted? Ex. If is set this option to YES and before invoice delete the next invoice number is 15 the next invoice number will decrement to 14 for the next invoice if is set to NO the number will remain to 15';
-$lang['settings_sales_invoice_number_format'] = 'Invoice Number Format';
+$lang['settings_sales_decrement_invoice_number_on_delete_tooltip'] = 'Do you want to decrement the invoice number when the last session is deleted? Ex. If is set this option to YES and before session delete the next session number is 15 the next session number will decrement to 14 for the next session if is set to NO the number will remain to 15';
+$lang['settings_sales_invoice_number_format'] = 'Session Number Format';
 $lang['settings_sales_invoice_number_format_year_based'] = 'Year Based';
 $lang['settings_sales_invoice_number_format_number_based'] = 'Number Based (000001)';
-$lang['settings_sales_invoice_year'] = 'Invoice Year (YYYY/000001)';
-$lang['settings_sales_invoice_year_tooltip'] = 'Current invoice year. Reset this when new year arrives.';
+$lang['settings_sales_invoice_year'] = 'Session Year (YYYY/000001)';
+$lang['settings_sales_invoice_year_tooltip'] = 'Current session year. Reset this when new year arrives.';
 
 $lang['settings_sales_company_info_heading'] = 'Company';
-$lang['settings_sales_company_info_note'] = 'This informations will be displayed on invoices/estimates/payments and other PDF documents where company info is required';
+$lang['settings_sales_company_info_note'] = 'This informations will be displayed on session/estimates/payments and other PDF documents where company info is required';
 $lang['settings_sales_company_name'] = 'Company Name';
 $lang['settings_sales_address'] = 'Address';
 $lang['settings_sales_city'] = 'City';
@@ -627,8 +627,8 @@ $lang['dt_info'] = 'Showing _START_ to _END_ of _TOTAL_ {0}';
 $lang['dt_empty_table'] = 'No {0} found';
 $lang['dt_sort_ascending'] = 'activate to sort column ascending';
 $lang['dt_sort_descending'] = 'activate to sort column descending';
-# Invoice Activity Log
-$lang['user_sent_overdue_reminder'] = '%s sent invoice overdue reminder';
+# Session Activity Log
+$lang['user_sent_overdue_reminder'] = '%s sent session overdue reminder';
 
 # Weekdays
 $lang['wd_monday'] = 'Monday';
@@ -993,8 +993,8 @@ $lang['clients_contracts_dt_start_date'] = 'Start Date';
 $lang['clients_contracts_dt_end_date'] = 'End Date';
 
 # Home
-$lang['clients_quick_invoice_info'] = 'Quick Invoices Info';
-$lang['clients_home_currency_select_tooltip'] = 'You need to select currency becuase you have invoices with different currency';
+$lang['clients_quick_invoice_info'] = 'Quick Session Info';
+$lang['clients_home_currency_select_tooltip'] = 'You need to select currency becuase you have session with different currency';
 $lang['clients_report_sales_months_all_time'] = 'All Time';
 $lang['clients_report_sales_months_six_months'] = 'Last 6 months';
 $lang['clients_report_sales_months_twelve_months'] = 'Last 12 months';
@@ -1005,8 +1005,8 @@ $lang['clients_report_select_to_date'] = 'To Date';
 # Invoices
 $lang['clients_invoice_html_btn_download'] = 'Download';
 
-$lang['clients_my_invoices'] = 'My Invoices';
-$lang['clients_invoice_dt_number'] = 'Invoice #';
+$lang['clients_my_invoices'] = 'My Sessions';
+$lang['clients_invoice_dt_number'] = 'Session #';
 $lang['clients_invoice_dt_date'] = 'Date';
 $lang['clients_invoice_dt_duedate'] = 'Due Date';
 $lang['clients_invoice_dt_amount'] = 'Amount';
@@ -1094,7 +1094,7 @@ $lang['clients_register_heading'] = 'Register';
 # Navigation
 $lang['clients_nav_login'] = 'Login';
 $lang['clients_nav_register'] = 'Register';
-$lang['clients_nav_invoices'] = 'Invoices';
+$lang['clients_nav_invoices'] = 'Sessions';
 $lang['clients_nav_contracts'] = 'Contracts';
 $lang['clients_nav_kb'] = 'Knowledge Base';
 $lang['clients_nav_profile'] = 'Profile';
@@ -1127,9 +1127,9 @@ $lang['payment_for_string'] = 'Payment For';
 $lang['payment_date'] = 'Payment Date:';
 $lang['payment_view_mode'] = 'Payment Mode:';
 $lang['payment_total_amount'] = 'Total Amount';
-$lang['payment_table_invoice_number'] = 'Invoice Number';
-$lang['payment_table_invoice_date'] = 'Invoice Date';
-$lang['payment_table_invoice_amount_total'] = 'Invoice Amount';
+$lang['payment_table_invoice_number'] = 'Session Number';
+$lang['payment_table_invoice_date'] = 'Session Date';
+$lang['payment_table_invoice_amount_total'] = 'Session Amount';
 $lang['payment_table_payment_amount_total'] = 'Payment Amount';
 $lang['payments_table_transaction_id'] = 'Transaction ID: %s';
 $lang['payment_getaway_token_not_found'] = 'Token Not Found';
@@ -1149,18 +1149,18 @@ $lang['lead_converted_edit_client_profile'] = 'Edit Profile';
 $lang['lead_is_client_cant_change_status_canban'] = 'This lead is converted to client. You cant change his status.';
 
 # Invoices
-$lang['view_invoice_as_customer_tooltip'] = 'View Invoice as Client';
-$lang['invoice_add_edit_recurring'] = 'Recurring Invoice?';
+$lang['view_invoice_as_customer_tooltip'] = 'View Session as Client';
+$lang['invoice_add_edit_recurring'] = 'Recurring Session?';
 $lang['invoice_add_edit_recurring_no'] = 'No';
 $lang['invoice_add_edit_recurring_month'] = 'Every %s month';
 $lang['invoice_add_edit_recurring_months'] = 'Every %s months';
 $lang['invoices_list_all'] = 'All';
-$lang['invoices_list_tooltip'] = 'View Invoices';
-$lang['invoices_list_not_sent'] = 'Invoice Not Sent';
-$lang['invoices_list_not_have_payment'] = 'Invoices with no payment record';
-$lang['invoices_list_recuring'] = 'Recurring Invoices';
+$lang['invoices_list_tooltip'] = 'View Sessions';
+$lang['invoices_list_not_sent'] = 'Session Not Sent';
+$lang['invoices_list_not_have_payment'] = 'Sessions with no payment record';
+$lang['invoices_list_recuring'] = 'Recurring Sessions';
 $lang['invoices_list_made_payment_by'] = 'Made Payment by %s';
-$lang['invoices_create_invoice_from_recurring_only_on_paid_invoices'] = 'Create new invoice from main recurring invoice only if is with status Paid';
+$lang['invoices_create_invoice_from_recurring_only_on_paid_invoices'] = 'Create new invoice from main recurring session only if is with status Paid';
 $lang['invoices_create_invoice_from_recurring_only_on_paid_invoices_tooltip'] = 'Create new invoice from the main recurring invoice only if the main invoice is with status paid? If this field is set to No and the recurring invoice is not with status paid the new invoice wont be created';
 $lang['send_renewed_invoice_from_recurring_to_email'] = 'Automatically send the renewed invoice to the client';
 $lang['view_invoice_pdf_link_pay'] = 'Pay Invoice';
@@ -1262,7 +1262,7 @@ $lang['view_stats_tooltip'] = 'View Quick Stats';
 $lang['zip_from_date'] = 'From Date:';
 $lang['zip_to_date'] = 'To Date:';
 $lang['client_zip_payments'] = 'ZIP Payments';
-$lang['client_zip_invoices'] = 'ZIP Invoices';
+$lang['client_zip_invoices'] = 'ZIP Sessions';
 $lang['client_zip_estimates'] = 'ZIP Quotations';
 $lang['client_zip_status'] = 'Status';
 $lang['client_zip_status_all'] = 'All';
@@ -1306,7 +1306,7 @@ $lang['settings_sales_cron_invoice_heading'] = 'Invoice';
 $lang['tasks_dt_datestart'] = 'Date Start';
 $lang['tasks_dt_priority'] = 'Priority';
 
-# Invoice General
+# Session General
 $lang['invoice_discount'] = 'Discount';
 
 # Tickets
@@ -1452,9 +1452,9 @@ $lang['client_add_edit_profile'] = 'Profile';
 # Version 1.0.3
 # Admin
 # Home
-$lang['home_invoice_not_sent'] = 'Invoice Not Sent';
+$lang['home_invoice_not_sent'] = 'Session Not Sent';
 $lang['home_expired_estimates'] = 'Expired Quotations';
-$lang['home_invoice_overdue'] = 'Invoice Overdue';
+$lang['home_invoice_overdue'] = 'Session Overdue';
 $lang['home_payments_received_today'] = 'Payments Received Today';
 
 # Reports
@@ -1499,7 +1499,7 @@ $lang['acs_contracts'] = 'Contracts';
 $lang['acs_contract_types'] = 'Contract Types';
 
 # Version 1.0.4
-# Invoice Items
+# Session Items
 $lang['invoice_item_long_description'] = 'Long Description';
 # Patients
 $lang['client_delete_invoices_warning'] = 'This patient have invoices or estimates on the account. You cant delete this client. Change all invoices to another patient in a future then delete.';
@@ -1606,7 +1606,7 @@ $lang['als_expenses_vs_income'] = 'Expenses vs Income';
 # Invoices
 $lang['invoice_attach_file'] = 'Attach File';
 $lang['invoice_mark_as_sent'] = 'Mark as Sent';
-$lang['invoice_marked_as_sent'] = 'Invoice marked as sent successfully';
+$lang['invoice_marked_as_sent'] = 'Session marked as sent successfully';
 $lang['invoice_marked_as_sent_failed'] = 'Failed to mark invoice as sent';
 
 # Quick Actions
@@ -1700,15 +1700,15 @@ $lang['expenses_list_all'] = 'All';
 $lang['expenses_list_tooltip'] = 'View Expenses';
 $lang['expenses_list_billable'] = 'Billable';
 $lang['expenses_list_non_billable'] = 'Non Billable';
-$lang['expenses_list_invoiced'] = 'Invoiced';
+$lang['expenses_list_invoiced'] = 'Session';
 $lang['expenses_list_unbilled'] = 'Unbilled';
 $lang['expenses_list_recurring'] = 'Recurring';
 $lang['expense_invoice_delete_not_allowed'] = 'You cant delete this expense. The expense is already invoiced.';
-$lang['expense_convert_to_invoice'] = 'Convert To Invoice';
+$lang['expense_convert_to_invoice'] = 'Convert To Session';
 $lang['expense_edit'] = 'Edit Expense';
 $lang['expense_delete'] = 'Delete';
 $lang['expense_copy'] = 'Copy';
-$lang['expense_invoice_not_created'] = 'Invoice Not Created';
+$lang['expense_invoice_not_created'] = 'Session Not Created';
 $lang['expense_billed'] = 'Billed';
 $lang['expense_not_billed'] = 'Not Billed';
 $lang['expense_customer'] = 'Patient';
@@ -1719,7 +1719,7 @@ $lang['expense_tax'] = 'Tax:';
 $lang['expense_amount'] = 'Amount:';
 $lang['expense_recurring_indicator'] = 'Recurring';
 $lang['expense_already_invoiced'] = 'This expense is already invoiced';
-$lang['expense_recurring_auto_create_invoice'] = 'Auto Create Invoice';
+$lang['expense_recurring_auto_create_invoice'] = 'Auto Create Session';
 $lang['expense_recurring_send_custom_on_renew'] = 'Send the invoice to patient email when expense repeated';
 $lang['expense_recurring_autocreate_invoice_tooltip'] = 'If this option is checked the invoice for the patient will be auto created when the expense will be renewed.';
 $lang['report_expenses_full'] = 'Full Report';
@@ -1736,7 +1736,7 @@ $lang['custom_field_staff'] = 'Staff';
 $lang['custom_field_contracts'] = 'Contracts';
 $lang['custom_field_tasks'] = 'Tasks';
 $lang['custom_field_expenses'] = 'Expenses';
-$lang['custom_field_invoice'] = 'Invoice';
+$lang['custom_field_invoice'] = 'Session';
 $lang['custom_field_estimate'] = 'Quotation';
 # Tickets
 $lang['ticket_single_private_staff_notes'] = 'Private Staff Notes';
@@ -1764,7 +1764,7 @@ $lang['contracts_view_without_dateend'] = 'Contracts Without Date End';
 
 # Email Templates
 $lang['email_template_contracts_fields_heading'] = 'Contracts';
-# Invoices General
+# Sessions General
 $lang['invoice_estimate_general_options'] = 'General Options';
 $lang['invoice_table_item_description'] = 'Description';
 $lang['invoice_recurring_indicator'] = 'Recurring';
@@ -1777,8 +1777,8 @@ $lang['estimate_table_item_description'] = 'Description';
 # Invoices
 # Currencies
 $lang['cant_delete_base_currency'] = 'You cant delete the base currency. You need to assign new base currency the delete this.';
-$lang['invoice_copy'] = 'Copy Invoice';
-$lang['invoice_copy_success'] = 'Invoice copied successfuly';
+$lang['invoice_copy'] = 'Copy Session';
+$lang['invoice_copy_success'] = 'Session copied successfuly';
 $lang['invoice_copy_fail'] = 'Failed to copy invoice';
 $lang['invoice_due_after_help'] = 'Set zero to avoid calculation';
 
@@ -1788,7 +1788,7 @@ $lang['show_shipping_on_invoice'] = 'Show shipping details in invoice';
 $lang['show_shipping_on_estimate'] = 'Show shipping details in estimate';
 $lang['is_invoiced_estimate_delete_error'] = 'This estimate is invoiced. You cant delete the estimate';
 
-# Patients & Invoices / Quotations
+# Patients & Sessions / Quotations
 $lang['ship_to'] = 'Ship to';
 $lang['customer_profile_details'] = 'Patient Details';
 $lang['billing_shipping'] = 'Billing & Shipping';
@@ -1813,7 +1813,7 @@ $lang['customer_file_from'] = 'Showing from %s';
 $lang['customer_default_currency'] = 'Default Currency';
 $lang['customer_no_attachments_found'] = 'No attachments found';
 $lang['customer_update_address_info_on_invoices'] = 'Update the shipping/billing info on all previous invoices/estimates';
-$lang['customer_update_address_info_on_invoices_help'] = 'If you check this field shipping and billing info will be updated to all invoices and estimates. Note: Invoices with status paid wont be affected.';
+$lang['customer_update_address_info_on_invoices_help'] = 'If you check this field shipping and billing info will be updated to all invoices and estimates. Note: Sessions with status paid wont be affected.';
 $lang['setup_google_api_key_customer_map'] = 'Setup google api key in order to view to customer map';
 $lang['customer_attachments_file'] = 'File';
 $lang['client_send_set_password_email'] = 'Send SET password email';
@@ -1839,7 +1839,7 @@ $lang['localization_default_language'] = 'Default Language';
 $lang['system_default_string'] = 'System Default';
 $lang['advanced_options'] = 'Advanced Options';
 # Expenses
-$lang['expense_list_invoice'] = 'Invoiced';
+$lang['expense_list_invoice'] = 'Session';
 $lang['expense_list_billed'] = 'Billed';
 $lang['expense_list_unbilled'] = 'Unbilled';
 # Leads
@@ -1888,13 +1888,13 @@ $lang['settings_cron_surveys'] = 'Surveys';
 $lang['settings_default_tax'] = 'Default Tax';
 $lang['setup_calendar_by_departments'] = 'Setup calendar by Departments';
 $lang['settings_calendar'] = 'Calendar';
-$lang['settings_sales_invoice_due_after'] = 'Invoice due after (days)';
+$lang['settings_sales_invoice_due_after'] = 'Session due after (days)';
 $lang['settings_google_api'] = 'Google API Key';
 $lang['settings_gcal_main_calendar_id'] = 'Google Calendar ID';
 $lang['settings_gcal_main_calendar_id_help'] = 'This is the main company calendar. All events from this calendar will be shown. If you want to specify a calendar based on departments you can add in the department Google Calendar ID.';
 
 $lang['show_on_calendar'] = 'Show on Calendar';
-$lang['show_invoices_on_calendar'] = 'Invoices';
+$lang['show_invoices_on_calendar'] = 'Sessions';
 $lang['show_estimates_on_calendar'] = 'Quotations';
 $lang['show_contracts_on_calendar'] = 'Contracts';
 $lang['show_tasks_on_calendar'] = 'Tasks';
@@ -1939,7 +1939,7 @@ $lang['kb_group_order'] = 'Order';
 $lang['bulk_pdf_exporter'] = 'Bulk PDF Exporter';
 $lang['bulk_export_pdf_payments'] = 'Payments';
 $lang['bulk_export_pdf_estimates'] = 'Quotations';
-$lang['bulk_export_pdf_invoices'] = 'Invoices';
+$lang['bulk_export_pdf_invoices'] = 'Sessions';
 $lang['bulk_pdf_export_button'] = 'Export';
 $lang['bulk_pdf_export_select_type'] = 'Select Type';
 $lang['no_data_found_bulk_pdf_export'] = 'No data found for export';
@@ -1984,7 +1984,7 @@ $lang['welcome_top'] = 'Welcome %s';
 
 # Patients
 $lang['customer_permissions'] = 'Permissions';
-$lang['customer_permission_invoice'] = 'Invoices';
+$lang['customer_permission_invoice'] = 'Sessions';
 $lang['customer_permission_estimate'] = 'Quotation';
 $lang['customer_permission_proposal'] = 'Proposals';
 $lang['customer_permission_contract'] = 'Contracts';
@@ -2259,8 +2259,8 @@ $lang['ticket_pipe_date'] = 'Date';
 $lang['ticket_pipe_status'] = 'Status';
 
 # Home
-$lang['home_invoice_paid'] = 'Invoice Paid';
-$lang['home_invoice_partialy_paid'] = 'Invoice Partially Paid';
+$lang['home_invoice_paid'] = 'Session Paid';
+$lang['home_invoice_partialy_paid'] = 'Session Partially Paid';
 $lang['home_estimate_declined'] = 'Quotation Declined';
 $lang['home_estimate_accepted'] = 'Quotation Accepted';
 $lang['home_estimate_sent'] = 'Quotation Sent';
@@ -2286,11 +2286,11 @@ $lang['footer_version'] = 'Version %s';
 # DEPRECED - not used anymore
 $lang['als_leads_new_lead_submenu'] = 'New Lead';
 $lang['als_leads_view_lead_submenu'] = 'View Leads';
-$lang['invoices_quick_info'] = 'Quick Invoices Info';
+$lang['invoices_quick_info'] = 'Quick Sessions Info';
 $lang['estimates_quick_info'] = 'Quick Quotations Info';
-$lang['home_unfinished_invoices_not_sent'] = 'Invoice Not Sent';
+$lang['home_unfinished_invoices_not_sent'] = 'Session Not Sent';
 $lang['home_unfinished_expired_estimates'] = 'Expired Quotations';
-$lang['home_unfinished_invoice_overdue'] = 'Invoice Overdue';
+$lang['home_unfinished_invoice_overdue'] = 'Session Overdue';
 $lang['home_unfinished_leads_contacted_today'] = 'Leads Contacted Today';
 $lang['acs_sales'] = 'Sessions';
 $lang['acs_language_translator'] = 'Translator';
@@ -2299,7 +2299,7 @@ $lang['report_sales_type_items'] = 'Sessions by Item';
 $lang['reports_sales_dt_items_name'] = 'Item Name';
 $lang['reports_sales_dt_items_quantity'] = 'Quantity';
 $lang['reports_sales_dt_items_amount'] = 'Amount';
-$lang['invoice_activity_modal_heading'] = 'Invoice Activity';
+$lang['invoice_activity_modal_heading'] = 'Session Activity';
 $lang['estimate_activity_modal_heading'] = 'Quotation Activity';
 $lang['kb_folders'] = 'Folders';
 $lang['new_language_name'] = 'New language name';
@@ -2323,7 +2323,7 @@ $lang['client_reminder_set_to'] = 'Set reminder to';
 $lang['client_reminder_deleted'] = 'Reminder deleted successfuly';
 $lang['client_reminder_failed_to_delete'] = 'Failed to delete the reminder';
 $lang['als_leads_estimates_submenu'] = 'Quotations';
-$lang['als_leads_invoices_submenu'] = 'Invoices';
+$lang['als_leads_invoices_submenu'] = 'Sessions';
 $lang['als_leads_payments_submenu'] = 'Payments';
 $lang['als_leads_items_submenu'] = 'Items';
 $lang['als_tickets'] = 'Tickets';

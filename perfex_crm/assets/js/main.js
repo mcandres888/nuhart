@@ -77,6 +77,12 @@ $(document).ready(function() {
         staff: 'required'
     }, reminderFormHandler);
 
+    _validate_form($('#form-medical'), {
+        date: 'required',
+        staff: 'required'
+    }, medicalFormHandler);
+
+
     $('body').on('click', '.delete-reminder', function() {
         $.get($(this).attr('href'), function(response) {
             alert_float(response.alert_type, response.message);
@@ -84,6 +90,16 @@ $(document).ready(function() {
         }, 'json');
         return false;
     });
+
+    $('body').on('click', '.delete-medical', function() {
+        $.get($(this).attr('href'), function(response) {
+            alert_float(response.alert_type, response.message);
+            $('body').find('.table-medical').DataTable().ajax.reload();
+        }, 'json');
+        return false;
+    });
+
+
     $('.switch-box').bootstrapSwitch();
     $('#side-menu').metisMenu();
     $('#customize-sidebar').metisMenu();
@@ -1026,6 +1042,20 @@ function reminderFormHandler(form) {
     $('.reminder-modal').modal('hide');
     return false;
 }
+
+function medicalFormHandler(form) {
+    form = $(form);
+    var data = form.serialize();
+    var serializeArray = $(form).serializeArray();
+    $.post(form.attr('action'), data).success(function(data) {
+        data = $.parseJSON(data);
+        alert_float(data.alert_type, data.message);
+        $('body').find('.table-medical').DataTable().ajax.reload();
+    });
+    $('.medical-modal').modal('hide');
+    return false;
+}
+
 
 function empty(data) {
     if (typeof(data) == 'number' || typeof(data) == 'boolean') {

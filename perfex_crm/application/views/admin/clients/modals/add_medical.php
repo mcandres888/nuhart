@@ -18,20 +18,23 @@
                                             <?php echo render_input('bp','BP:'); ?>
                                             <?php echo render_input('hr','HR:'); ?>
                                             <?php echo render_input('rr','RR:'); ?>
-                                            <?php echo render_select('harvester1',$nurses,array('id',array('name')),'Harvester 1'); ?>
-                                            <?php echo render_select('harvester2',$nurses,array('id',array('name')),'Harvester 2'); ?>
+                                            <?php echo render_select('harvester_1',$nurses,array('id',array('name')),'Harvester 1'); ?>
+                                            <?php echo render_select('harvester_2',$nurses,array('id',array('name')),'Harvester 2'); ?>
                                         </div>
                                         <div class="col-md-6">
                                             <?php echo render_select('planter_left',$nurses,array('id',array('name')),'Planter (left)'); ?>
                                             <?php echo render_select('planter_right',$nurses,array('id',array('name')),'Planter (right)'); ?>
                                             <?php echo render_select('planter_back',$nurses,array('id',array('name')),'Planter (back)'); ?>
-                                            <?php echo render_select('dissector1',$nurses,array('id',array('name')),'Dissector 1'); ?>
-                                            <?php echo render_select('dissector2',$nurses,array('id',array('name')),'Dissector 2'); ?>
-                                            <?php echo render_select('dissector3',$nurses,array('id',array('name')),'Dissector 3'); ?>
+                                            <?php echo render_select('dissector_1',$nurses,array('id',array('name')),'Dissector 1'); ?>
+                                            <?php echo render_select('dissector_2',$nurses,array('id',array('name')),'Dissector 2'); ?>
+                                            <?php echo render_select('dissector_3',$nurses,array('id',array('name')),'Dissector 3'); ?>
                                             <?php echo render_select('others',$nurses,array('id',array('name')),'Others'); ?>
                                         </div>
 
-
+                                       <div class="col-md-12">
+                                            <?php echo render_textarea('notes','Notes:'); ?>
+                                        </div>
+                     
 
 
 

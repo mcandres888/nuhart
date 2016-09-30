@@ -87,23 +87,19 @@ class Misc extends Admin_controller
         if ($this->input->is_ajax_request()) {
 
             $aColumns     = array(
-                'description',
+                'notes',
                 'date',
-                'staff',
-                'isnotified'
             );
             $sIndexColumn = "id";
-            $sTable       = 'tblreminders';
+            $sTable       = 'tblmedical';
 
             $where  = array(
                 'AND rel_id=' . $id . ' AND rel_type="' . $rel_type . '"'
             );
             $join   = array(
-                'JOIN tblstaff ON tblstaff.staffid = tblreminders.staff'
+                'JOIN tblstaff ON tblstaff.staffid = tblmedical.staff'
             );
             $result = data_tables_init($aColumns, $sIndexColumn, $sTable, $join, $where, array(
-                'firstname',
-                'lastname',
                 'id',
                 'creator',
                 'rel_type'
@@ -116,24 +112,11 @@ class Misc extends Admin_controller
                 $row = array();
                 for ($i = 0; $i < count($aColumns); $i++) {
                     $_data = $aRow[$aColumns[$i]];
-                    if ($aColumns[$i] == 'staff') {
-                        $_data = '<a href="' . admin_url('staff/profile/' . $aRow['staff']) . '">' . staff_profile_image($aRow['staff'], array(
-                            'staff-profile-image-small'
-                        )) . ' ' . $aRow['firstname'] . ' ' . $aRow['lastname'] . '</a>';
-                    } else if ($aColumns[$i] == 'staff') {
-                        $_data = _d($_data);
-                    } else if ($aColumns[$i] == 'isnotified') {
-                        if ($_data == 1) {
-                            $_data = _l('reminder_is_notified_boolean_yes');
-                        } else {
-                            $_data = _l('reminder_is_notified_boolean_no');
-                        }
-                    }
                     $row[] = $_data;
                 }
 
                 if ($aRow['creator'] == get_staff_user_id()) {
-                    $row[] = icon_btn('admin/misc/delete_reminder/' . $id . '/' . $aRow['id'] . '/' . $aRow['rel_type'], 'remove', 'btn-danger delete-reminder');
+                    $row[] = icon_btn('admin/misc/delete_medical/' . $id . '/' . $aRow['id'] . '/' . $aRow['rel_type'], 'remove', 'btn-danger delete-medical') . icon_btn('#', 'tasks', 'btn-success view-medical',array( "data-toggle"=>"modal" ,"data-target"=>".medical-modal"));
                 } else {
                     $row[] = '';
                 }
@@ -153,10 +136,10 @@ class Misc extends Admin_controller
         $message    = '';
         $alert_type = 'warning';
         if ($this->input->post()) {
-            $success = $this->misc_model->add_reminder($this->input->post(), $rel_id_id);
+            $success = $this->misc_model->add_medical($this->input->post(), $rel_id_id);
             if ($success) {
                 $alert_type = 'success';
-                $message    = _l('reminder_added_successfuly');
+                $message    = 'Medical Record Sucessfully Added.';
             }
         }
 
@@ -166,6 +149,27 @@ class Misc extends Admin_controller
         ));
     }
 
+
+    public function delete_medical($rel_id, $id, $rel_type)
+    {
+        if (!$id && !$rel_id) {
+            die('No medical found');
+        }
+
+        $success    = $this->misc_model->delete_medical($id);
+        $alert_type = 'warning';
+        $message    = 'Medical Record failed to delete';
+        if ($success) {
+            $alert_type = 'success';
+            $message    = 'Medical Record deleted';
+        }
+
+
+        echo json_encode(array(
+            'alert_type' => $alert_type,
+            'message' => $message
+        ));
+    }
 
 
 

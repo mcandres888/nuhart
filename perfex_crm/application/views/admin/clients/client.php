@@ -536,7 +536,7 @@ render_datatable($table_data,'proposals-client-profile');
 
 <div role="tabpanel" class="tab-pane ptop10" id="tab_medical">
  <a href="#" data-toggle="modal" data-target=".medical-modal"><i class="fa fa-tasks"> Create Medical Record</i></a>
- <?php render_datatable(array( _l( 'reminder_description'), _l( 'reminder_date'), _l( 'reminder_staff'), _l( 'reminder_is_notified'), _l( 'options'), ), 'medical'); ?>
+ <?php render_datatable(array( 'Note' , _l( 'reminder_date'), _l( 'options') ), 'medical'); ?>
 
 </div>
 
@@ -602,7 +602,7 @@ render_datatable($table_data,'proposals-client-profile');
       initDataTable('.table-estimates-single-client', admin_url + 'estimates/list_estimates/false/' + customer_id, 'estimates');
       initDataTable('.table-payments-single-client', admin_url + 'payments/list_payments/' + customer_id, 'payments', [6], [6]);
       initDataTable('.table-reminders', admin_url + 'misc/get_reminders/' + customer_id + '/' + 'customer', 'reminders', [4], [4]);
-      initDataTable('.table-medical', admin_url + 'misc/get_medical/' + customer_id + '/' + 'customer', 'medical', [4], [4]);
+      initDataTable('.table-medical', admin_url + 'misc/get_medical/' + customer_id + '/' + 'customer', 'medical');
       initDataTable('.table-expenses-single-client', admin_url + 'expenses/list_expenses/false/' + customer_id, 'expenses', 'undefined', 'undefined');
       initDataTable('.table-proposals-client-profile', admin_url + 'proposals/proposal_relations/' + customer_id + '/customer', 'proposals', 'undefined', 'undefined');
       _validate_form($('.client-form'), {
