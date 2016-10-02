@@ -82,6 +82,12 @@ $(document).ready(function() {
         staff: 'required'
     }, medicalFormHandler);
 
+    _validate_form($('#form-viewmedical'), {
+        date: 'required',
+        staff: 'required'
+    },viewmedicalFormHandler);
+
+
 
     $('body').on('click', '.delete-reminder', function() {
         $.get($(this).attr('href'), function(response) {
@@ -92,12 +98,36 @@ $(document).ready(function() {
     });
 
     $('body').on('click', '.delete-medical', function() {
+        alert("This will delete medical record");
         $.get($(this).attr('href'), function(response) {
             alert_float(response.alert_type, response.message);
             $('body').find('.table-medical').DataTable().ajax.reload();
         }, 'json');
         return false;
     });
+
+    $('body').on('click', '.view-medical', function() {
+        $.get($(this).attr('href'), function(response) {
+          $('body').find('#vm_date')[0].value = response.date;
+          $('body').find('#vm_picture_taken')[0].value = response.picture_taken;
+          $('body').find('#vm_bp')[0].value = response.bp;
+          $('body').find('#vm_hr')[0].value = response.hr;
+          $('body').find('#vm_rr')[0].value = response.rr;
+          $('body').find('#vm_harvester_1')[0].value = response.harvester_1;
+          $('body').find('#vm_harvester_2')[0].value = response.harvester_2;
+          $('body').find('#vm_planter_left')[0].value = response.planter_left;
+          $('body').find('#vm_planter_right')[0].value = response.planter_right;
+          $('body').find('#vm_planter_back')[0].value = response.planter_back;
+          $('body').find('#vm_dissector_1')[0].value = response.dissector_1;
+          $('body').find('#vm_dissector_2')[0].value = response.dissector_2;
+          $('body').find('#vm_dissector_3')[0].value = response.dissector_3;
+          $('body').find('#vm_others')[0].value = response.others;
+          $('body').find('#vm_notes')[0].value = response.notes;
+          $('.viewmedical-modal').modal('show');
+        }, 'json');
+        return false;
+    });
+
 
 
     $('.switch-box').bootstrapSwitch();
@@ -1055,6 +1085,20 @@ function medicalFormHandler(form) {
     $('.medical-modal').modal('hide');
     return false;
 }
+
+function viewmedicalFormHandler(form) {
+    form = $(form);
+    var data = form.serialize();
+    var serializeArray = $(form).serializeArray();
+    $.post(form.attr('action'), data).success(function(data) {
+        data = $.parseJSON(data);
+        alert_float(data.alert_type, data.message);
+        $('body').find('.table-medical').DataTable().ajax.reload();
+    });
+    $('.viewmedical-modal').modal('hide');
+    return false;
+}
+
 
 
 function empty(data) {

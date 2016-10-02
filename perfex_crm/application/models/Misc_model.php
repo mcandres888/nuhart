@@ -59,6 +59,19 @@ class Misc_model extends CRM_Model
         return false;
     }
 
+   public function get_nurses()
+    {
+
+        $retval = array();
+        foreach ( $this->db->get('tblnurses')->result_array() as $nurse) {
+            $retval[$nurse['id']] = $nurse['name'];
+        }
+        return $retval;
+    }
+
+
+
+
 
     /**
      * Get all medical or 1 reminder if id is passed

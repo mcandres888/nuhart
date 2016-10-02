@@ -290,6 +290,55 @@ function init_relation_options($data, $type, $rel_id = '')
         echo '<option value="' . $relation_values['id'] . '"' . $selected . '>' . $relation_values['name'] . '</option>';
     }
 }
+
+function render_input_ro($name, $label = '', $value = '', $type = 'text', $input_attrs = array(), $form_group_attr = array(), $form_group_class = '', $input_class = '')
+{
+    $input            = '';
+    $_form_group_attr = '';
+    $_input_attrs     = '';
+
+    foreach ($input_attrs as $key => $val) {
+        // tooltips
+        if ($key == 'title') {
+            $val = _l($val);
+        }
+
+        $_input_attrs .= $key . '=' . '"' . $val . '"';
+    }
+    foreach ($form_group_attr as $key => $val) {
+        // tooltips
+        if ($key == 'title') {
+            $val = _l($val);
+        }
+
+        $_form_group_attr .= $key . '=' . '"' . $val . '"';
+    }
+
+    if (!empty($form_group_class)) {
+        $form_group_class = ' ' . $form_group_class;
+    }
+
+    if (!empty($input_class)) {
+        $input_class = ' ' . $input_class;
+    }
+
+    $input .= '<div class="form-group' . $form_group_class . '" ' . $_form_group_attr . '>';
+    if ($label != '') {
+        $_label = _l($label);
+
+        if (mb_strpos($_label, 'translate_not_found_') !== false) {
+            $_label = $label;
+        }
+        $input .= '<label for="' . $name . '" class="control-label">' . $_label . '</label>';
+    }
+
+    $input .= '<input type="' . $type . '" id="' . $name . '"  readonly name="' . $name . '" class="form-control' . $input_class . '" ' . $_input_attrs . ' value="' . set_value($name,$value) . '">';
+    $input .= '</div>';
+
+    return $input;
+}
+
+
 function render_input($name, $label = '', $value = '', $type = 'text', $input_attrs = array(), $form_group_attr = array(), $form_group_class = '', $input_class = '')
 {
     $input            = '';

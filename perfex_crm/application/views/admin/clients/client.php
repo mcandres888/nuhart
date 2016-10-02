@@ -565,6 +565,7 @@ render_datatable($table_data,'proposals-client-profile');
     include_once(APPPATH . 'views/admin/clients/modals/zip_payments.php');
     include_once(APPPATH . 'views/admin/clients/modals/add_reminder.php');
     include_once(APPPATH . 'views/admin/clients/modals/add_medical.php');
+    include_once(APPPATH . 'views/admin/clients/modals/view_medical.php');
     include_once(APPPATH . 'views/admin/clients/modals/zip_invoices.php');
     include_once(APPPATH . 'views/admin/clients/modals/zip_estimates.php'); ?>
     <script>

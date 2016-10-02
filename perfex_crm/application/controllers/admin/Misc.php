@@ -82,6 +82,31 @@ class Misc extends Admin_controller
         ));
     }
 
+    public function get_medical_one ( $id ) {
+
+        $nurses = $this->misc_model->get_nurses();
+
+        $retVal = $this->misc_model->get_medical($id);
+        if ($retVal == null) {
+            echo json_encode(array(
+                'alert_type' => "error",
+                'message' => "medical record not found"
+            ));
+            return;
+        }
+        $retVal->picture_taken = $nurses[$retVal->picture_taken];
+        $retVal->harvester_1 = $nurses[$retVal->harvester_1];
+        $retVal->harvester_2 = $nurses[$retVal->harvester_2];
+        $retVal->planter_left = $nurses[$retVal->planter_left];
+        $retVal->planter_right = $nurses[$retVal->planter_right];
+        $retVal->planter_back = $nurses[$retVal->planter_back];
+        $retVal->dissector_1 = $nurses[$retVal->dissector_1];
+        $retVal->dissector_2 = $nurses[$retVal->dissector_2];
+        $retVal->dissector_3 = $nurses[$retVal->dissector_3];
+        $retVal->others = $nurses[$retVal->others];
+        echo json_encode($retVal);
+
+    }
     public function get_medical($id, $rel_type)
     {
         if ($this->input->is_ajax_request()) {
@@ -116,7 +141,7 @@ class Misc extends Admin_controller
                 }
 
                 if ($aRow['creator'] == get_staff_user_id()) {
-                    $row[] = icon_btn('admin/misc/delete_medical/' . $id . '/' . $aRow['id'] . '/' . $aRow['rel_type'], 'remove', 'btn-danger delete-medical') . icon_btn('#', 'tasks', 'btn-success view-medical',array( "data-toggle"=>"modal" ,"data-target"=>".medical-modal"));
+                    $row[] = icon_btn('admin/misc/delete_medical/' . $id . '/' . $aRow['id'] . '/' . $aRow['rel_type'], 'remove', 'btn-danger delete-medical') . icon_btn('admin/misc/get_medical_one/' . $aRow['id'] , 'tasks', 'btn-success view-medical');
                 } else {
                     $row[] = '';
                 }
