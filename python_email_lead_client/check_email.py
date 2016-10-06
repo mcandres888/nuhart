@@ -8,9 +8,33 @@ import gmail
 import requests
 
 
-nuhart_lead_api = "http://localhost:8887/perfex/perfex_crm/api/addLeads"
+nuhart_lead_api = "http://crm.nuhartclinic.com.ph/api/addLeads"
 g = gmail.login("nuhartleadgenerator@gmail.com", "nuhart888")
+SEMAPHORE_API = "ebMbaYFgWvqfawrZtSuY"
+SEMAPHORE_URL = "http://api.semaphore.co/api/sms"
 
+
+def sendSMSMessageToKat ( json_data ):
+    message = "New Lead Alert: %s has made an online inquiry. You may get in touch with %s at %s. Thank you!" % (json_data['name'], json_data['name'], json_data['phonenumber'] ) 
+    api_data = {}
+    api_data['api'] = SEMAPHORE_API
+    api_data['number'] = "639178742828"
+    api_data['message'] = message
+    api_data['from'] = "NUHARTPH"
+
+    r = requests.post(SEMAPHORE_URL, data = api_data)
+
+
+
+def sendSMSMessage ( json_data ):
+    message = "Hi %s! Thank you for getting in touch with Team NuHart. We'll be calling you for your free and private consultation. Have a great day ahead!" % json_data['name']
+    api_data = {}
+    api_data['api'] = SEMAPHORE_API
+    api_data['number'] = json_data['phonenumber']
+    api_data['message'] = message
+    api_data['from'] = "NUHARTPH"
+
+    r = requests.post(SEMAPHORE_URL, data = api_data)
 
 
 def uploadLeadToApi ( json_data ):
@@ -18,7 +42,8 @@ def uploadLeadToApi ( json_data ):
     print r.text
 
 
-emails = g.inbox().mail(sender="nuhartphweb@gmail.com", prefetch=True, unread=True)
+emails = g.inbox().mail(sender="noreply@nuhartclinic.com.ph", prefetch=True, unread=True)
+#emails = g.inbox().mail(sender="nuhartphweb@gmail.com", prefetch=True, unread=True)
 #emails = g.inbox().mail(sender="nuhartphweb@gmail.com", prefetch=True)
 for email in emails:
     data =  email.body
@@ -38,6 +63,8 @@ for email in emails:
     }
 
     print json_data
+    sendSMSMessage ( json_data )
+    sendSMSMessageToKat ( json_data )
     uploadLeadToApi(json_data)
     email.read()
 
