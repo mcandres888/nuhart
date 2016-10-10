@@ -128,7 +128,7 @@ class Leads extends Admin_controller
                         } else if ($aColumns[$i] == 'tblleads.phonenumber') {
                             $_data = '<a href="tel:' . $_data . '">' . $_data . '</a>';
                         } else if ($aColumns[$i] == 'tblleads.email') {
-                            $_data = '<a href="mailto:' . $_data . '">' . $_data . '</a>';
+                            $_data = '<a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=' . $_data . '">' . $_data . '</a>';
                         }
 
                         $row[] = $_data;
