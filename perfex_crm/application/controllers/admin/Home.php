@@ -54,8 +54,8 @@ class Home extends Admin_controller
         $dash_data['pending'] = array();
         $dash_data['leads_followup'] = array();
         $dash_data['leads_forgot_followup'] = array();
-        $dash_data['booked_calls'] = array();
-        $dash_data['attended_calls'] = array();
+        $dash_data['booked_cons'] = array();
+        $dash_data['attended_cons'] = array();
         $dash_data['forgot_update_sessions'] = array();
 
         $staffs = $this->staff_model->getStaff();

@@ -52,7 +52,7 @@
 							<div class="col-md-5ths col-xs-6 text-center border-right">
 							    <span class="bold text-success mtop15 inline-block"><i class="fa fa-check"></i> <?php echo _l('home_booked_calls_1'); ?></span>
 
-                              <?php foreach ($dash['booked_calls'] as $d ) { ?>
+                              <?php foreach ($dash['booked_cons'] as $d ) { ?>
 							    	<a href="<?php echo admin_url('invoices/list_invoices?status=4'); ?>">
 							        <h3 class="bold no-margin"><?php echo $d['value']?>  
 							        <span class="bold text-danger small"><?php echo $d['name']?></span>
@@ -65,7 +65,7 @@
 									<span class="bold text-success mtop15 inline-block"><i class="fa fa-calendar-check-o"></i> <?php echo _l('home_attended_calls_1'); ?></span>
 
 
-                              <?php foreach ($dash['attended_calls'] as $d ) { ?>
+                              <?php foreach ($dash['attended_cons'] as $d ) { ?>
 							    	<a href="<?php echo admin_url('invoices/list_invoices?status=4'); ?>">
 							        <h3 class="bold no-margin"><?php echo $d['value']?>  
 							        <span class="bold text-danger small"><?php echo $d['name']?></span>

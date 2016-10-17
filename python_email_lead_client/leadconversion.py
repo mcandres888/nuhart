@@ -61,6 +61,8 @@ class PerfexDB:
         print "perfex"
         self.jtg = 2;
         self.rle = 3;
+        self.ktg = 4;
+        self.rvb = 5;
     def close(self):
         self.con.close()
 
@@ -91,13 +93,13 @@ class PerfexDB:
         elif status == "Unbooked Leads":
             stat = 2
         elif status == "Attended Consultation":
-            stat = 7
+            stat = 5
         elif status == "Booked Consultation":
             stat = 4
         elif status == "Booked Session":
-            stat = 4
+            stat = 8
         elif status == "Not a Candidate":
-            stat = 2
+            stat = 9
         elif status == "Rescheduled":
             stat = 2
         return stat
@@ -107,12 +109,28 @@ class PerfexDB:
         assign = 1
         if assigned == "RLE":
             assign = self.rle 
+        elif assigned == "Jc Gawaran":
+            assign = self.jtg 
         elif assigned == "JTG":
             assign = self.jtg 
         elif assigned == "JTG - sent email for consultation":
             assign = self.jtg 
+        elif assigned == "JTG/RLE":
+            assign = self.ktg 
+        elif assigned == "Kat Guerrero":
+            assign = self.ktg 
+        elif assigned == "Kathleen Guerrero":
+            assign = self.ktg 
+        elif assigned == "KTG":
+            assign = self.ktg 
+        elif assigned == "KTG`":
+            assign = self.ktg 
         elif assigned == "KTG - JTG":
             assign = self.jtg 
+        elif assigned == "RLE":
+            assign = self.rle 
+        elif assigned == "RVB":
+            assign = self.rvb 
         elif assigned == "RWLE":
             assign = self.rle 
         return assign

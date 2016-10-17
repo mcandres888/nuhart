@@ -2340,8 +2340,8 @@ $lang['home_leads_contacted_today'] = 'Leads Contacted Today';
 $lang['home_pending_1'] = 'Pending';
 $lang['home_leads_followup_1'] = 'Leads for follow up';
 $lang['home_leads_forgot_followup_1'] = 'Leads forgot to follow up';
-$lang['home_booked_calls_1'] = 'Booked Calls';
-$lang['home_attended_calls_1'] = 'Attended Calls';
+$lang['home_booked_calls_1'] = 'Booked Cons';
+$lang['home_attended_calls_1'] = 'Attended Cons';
 
 
 $lang['home_total_patients'] = 'Total Patients';
