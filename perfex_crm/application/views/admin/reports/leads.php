@@ -6,7 +6,7 @@
 			<div class="col-md-6 animated fadeIn">
 				<div class="panel_s">
 					<div class="panel-heading">
-						<?php echo _l('report_this_week_leads_conversions'); ?>
+  						This Week Leads Accession
 					</div>
 					<div class="panel-body">
 						<canvas class="leads-this-week chart" id="leads-this-week"></canvas>

@@ -15,7 +15,7 @@ class Reports_model extends CRM_Model
      */
     public function leads_monthly_report($month)
     {
-        $result = $this->db->query('select last_status_change from tblleads where MONTH(last_status_change) = ' . $month . ' AND status = 1 and lost = 0')->result_array();
+        $result = $this->db->query('select dateadded from tblleads where MONTH(dateadded) = ' . $month . ' ')->result_array();
 
 
         $month_dates = array();
@@ -46,7 +46,7 @@ class Reports_model extends CRM_Model
         foreach ($result as $lead) {
             $i = 0;
             foreach ($chart['labels'] as $date) {
-                if (_d($lead['last_status_change']) == $date) {
+                if (_d($lead['dateadded']) == $date) {
                     $chart['datasets'][0]['data'][$i]++;
                 }
                 $i++;
@@ -61,7 +61,7 @@ class Reports_model extends CRM_Model
      */
     public function leads_this_week_report()
     {
-        $this->db->where('CAST(last_status_change as DATE) >= "' . date('Y-m-d', strtotime('monday this week', strtotime('last sunday'))) . '" AND CAST(last_status_change as DATE) <= "' . date('Y-m-d', strtotime('sunday this week', strtotime('last sunday'))) . '" AND status = 1 and lost = 0');
+        $this->db->where('CAST(dateadded as DATE) >= "' . date('Y-m-d', strtotime('monday this week', strtotime('last sunday'))) . '" AND CAST(dateadded as DATE) <= "' . date('Y-m-d', strtotime('sunday this week', strtotime('last sunday'))) . '" ');
         $weekly = $this->db->get('tblleads')->result_array();
         $colors = get_system_favourite_colors();
 
@@ -111,7 +111,7 @@ class Reports_model extends CRM_Model
         );
 
         foreach ($weekly as $weekly) {
-            $lead_status_day = date('l', strtotime($weekly['last_status_change']));
+            $lead_status_day = date('l', strtotime($weekly['dateadded']));
             $i               = 0;
             foreach ($pies as $pie) {
                 if ($lead_status_day == $pie['label']) {
